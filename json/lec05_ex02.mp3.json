@@ -1,0 +1,336 @@
+{
+  "number": "lec05",
+  "title": "ex02",
+  "text": " The following content is provided under a Creative Commons license. Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free. To make a donation or view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu. So we have a list, Al. Originally, life, answer, 42 and 0. In this example, if you don't know Hitchhiker's Guide to the Galaxy, that's why 42 is important. As a scientist, if I didn't have at least one example with the number 42, I'd probably hear about it. So here it is. So we have this original list, L, which contains the string life, the string answer, the number 42 and the number 0. Here I'm writing a loop that iterates over every element directly in L. So originally, thing is going to be the string life, then thing is going to be the string answer, then thing is going to be the number 42. And so what am I doing inside the loop as I'm iterating? Well, if thing is equal to 0, then I'm going to do this. And otherwise, I'm going to do this. So for the first two iterations, when thing is equal to life or answer, I'm not doing anything. As soon as I hit 42, though, I'm saying L at position 1 is going to get this value here. So when I've iterated over this element here, I'm saying L at position 1, I'm going to change its value, which says, well, I'm going to keep life the same, but this is going to be everything. And then we're keeping the rest the same 42 and 0, because we're only modifying L at position 1. As soon as we do that, we finish with the loop when L was 42. And then we go through 0. So now thing takes on the value 0. And we say, if thing is equal to 0, well, we're good on that. L at position thing is equal to universe. So L at position 0 is equal to universe. So that says, OK, I'm going to replace life with universe. And then everything else stays the same, 42 and 0. So that would be my answer. Universe, everything, 42 and 0. Great. That's the majority. Good job.",
+  "chunks": [
+    {
+      "number": "lec05",
+      "title": "ex02",
+      "start": 0.0,
+      "end": 3.16,
+      "text": " The following content is provided under a Creative"
+    },
+    {
+      "number": "lec05",
+      "title": "ex02",
+      "start": 3.16,
+      "end": 4.6000000000000005,
+      "text": " Commons license."
+    },
+    {
+      "number": "lec05",
+      "title": "ex02",
+      "start": 4.6000000000000005,
+      "end": 7.0,
+      "text": " Your support will help MIT OpenCourseWare"
+    },
+    {
+      "number": "lec05",
+      "title": "ex02",
+      "start": 7.0,
+      "end": 11.24,
+      "text": " continue to offer high quality educational resources for free."
+    },
+    {
+      "number": "lec05",
+      "title": "ex02",
+      "start": 11.24,
+      "end": 14.0,
+      "text": " To make a donation or view additional materials"
+    },
+    {
+      "number": "lec05",
+      "title": "ex02",
+      "start": 14.0,
+      "end": 17.92,
+      "text": " from hundreds of MIT courses, visit MIT OpenCourseWare"
+    },
+    {
+      "number": "lec05",
+      "title": "ex02",
+      "start": 17.92,
+      "end": 18.92,
+      "text": " at ocw.mit.edu."
+    },
+    {
+      "number": "lec05",
+      "title": "ex02",
+      "start": 23.400000000000002,
+      "end": 26.48,
+      "text": " So we have a list, Al."
+    },
+    {
+      "number": "lec05",
+      "title": "ex02",
+      "start": 26.48,
+      "end": 34.2,
+      "text": " Originally, life, answer, 42 and 0."
+    },
+    {
+      "number": "lec05",
+      "title": "ex02",
+      "start": 34.2,
+      "end": 38.480000000000004,
+      "text": " In this example, if you don't know Hitchhiker's Guide"
+    },
+    {
+      "number": "lec05",
+      "title": "ex02",
+      "start": 38.480000000000004,
+      "end": 42.2,
+      "text": " to the Galaxy, that's why 42 is important."
+    },
+    {
+      "number": "lec05",
+      "title": "ex02",
+      "start": 42.2,
+      "end": 46.400000000000006,
+      "text": " As a scientist, if I didn't have at least one example"
+    },
+    {
+      "number": "lec05",
+      "title": "ex02",
+      "start": 46.400000000000006,
+      "end": 49.2,
+      "text": " with the number 42, I'd probably hear about it."
+    },
+    {
+      "number": "lec05",
+      "title": "ex02",
+      "start": 49.2,
+      "end": 52.24,
+      "text": " So here it is."
+    },
+    {
+      "number": "lec05",
+      "title": "ex02",
+      "start": 52.24,
+      "end": 54.36,
+      "text": " So we have this original list, L, which"
+    },
+    {
+      "number": "lec05",
+      "title": "ex02",
+      "start": 54.36,
+      "end": 57.56,
+      "text": " contains the string life, the string answer, the number 42"
+    },
+    {
+      "number": "lec05",
+      "title": "ex02",
+      "start": 57.56,
+      "end": 59.44,
+      "text": " and the number 0."
+    },
+    {
+      "number": "lec05",
+      "title": "ex02",
+      "start": 59.44,
+      "end": 63.08,
+      "text": " Here I'm writing a loop that iterates over every element"
+    },
+    {
+      "number": "lec05",
+      "title": "ex02",
+      "start": 63.08,
+      "end": 72.88,
+      "text": " directly in L. So originally, thing is going to be the string"
+    },
+    {
+      "number": "lec05",
+      "title": "ex02",
+      "start": 72.88,
+      "end": 75.64,
+      "text": " life, then thing is going to be the string answer,"
+    },
+    {
+      "number": "lec05",
+      "title": "ex02",
+      "start": 75.64,
+      "end": 78.56,
+      "text": " then thing is going to be the number 42."
+    },
+    {
+      "number": "lec05",
+      "title": "ex02",
+      "start": 78.56,
+      "end": 82.08,
+      "text": " And so what am I doing inside the loop as I'm iterating?"
+    },
+    {
+      "number": "lec05",
+      "title": "ex02",
+      "start": 82.08,
+      "end": 87.16,
+      "text": " Well, if thing is equal to 0, then I'm going to do this."
+    },
+    {
+      "number": "lec05",
+      "title": "ex02",
+      "start": 87.16,
+      "end": 89.16,
+      "text": " And otherwise, I'm going to do this."
+    },
+    {
+      "number": "lec05",
+      "title": "ex02",
+      "start": 89.16,
+      "end": 91.24,
+      "text": " So for the first two iterations, when"
+    },
+    {
+      "number": "lec05",
+      "title": "ex02",
+      "start": 91.24,
+      "end": 94.92,
+      "text": " thing is equal to life or answer, I'm not doing anything."
+    },
+    {
+      "number": "lec05",
+      "title": "ex02",
+      "start": 94.92,
+      "end": 103.28,
+      "text": " As soon as I hit 42, though, I'm saying L at position 1"
+    },
+    {
+      "number": "lec05",
+      "title": "ex02",
+      "start": 103.28,
+      "end": 106.64,
+      "text": " is going to get this value here."
+    },
+    {
+      "number": "lec05",
+      "title": "ex02",
+      "start": 106.64,
+      "end": 109.4,
+      "text": " So when I've iterated over this element here,"
+    },
+    {
+      "number": "lec05",
+      "title": "ex02",
+      "start": 109.4,
+      "end": 112.64,
+      "text": " I'm saying L at position 1, I'm going to change its value,"
+    },
+    {
+      "number": "lec05",
+      "title": "ex02",
+      "start": 112.64,
+      "end": 115.24000000000001,
+      "text": " which says, well, I'm going to keep life the same,"
+    },
+    {
+      "number": "lec05",
+      "title": "ex02",
+      "start": 115.24000000000001,
+      "end": 118.80000000000001,
+      "text": " but this is going to be everything."
+    },
+    {
+      "number": "lec05",
+      "title": "ex02",
+      "start": 118.80000000000001,
+      "end": 121.28,
+      "text": " And then we're keeping the rest the same 42 and 0,"
+    },
+    {
+      "number": "lec05",
+      "title": "ex02",
+      "start": 121.28,
+      "end": 125.08000000000001,
+      "text": " because we're only modifying L at position 1."
+    },
+    {
+      "number": "lec05",
+      "title": "ex02",
+      "start": 125.08000000000001,
+      "end": 129.24,
+      "text": " As soon as we do that, we finish with the loop when L was 42."
+    },
+    {
+      "number": "lec05",
+      "title": "ex02",
+      "start": 129.24,
+      "end": 134.8,
+      "text": " And then we go through 0."
+    },
+    {
+      "number": "lec05",
+      "title": "ex02",
+      "start": 134.8,
+      "end": 137.88,
+      "text": " So now thing takes on the value 0."
+    },
+    {
+      "number": "lec05",
+      "title": "ex02",
+      "start": 137.88,
+      "end": 141.51999999999998,
+      "text": " And we say, if thing is equal to 0, well, we're good on that."
+    },
+    {
+      "number": "lec05",
+      "title": "ex02",
+      "start": 141.51999999999998,
+      "end": 144.32,
+      "text": " L at position thing is equal to universe."
+    },
+    {
+      "number": "lec05",
+      "title": "ex02",
+      "start": 144.32,
+      "end": 146.35999999999999,
+      "text": " So L at position 0 is equal to universe."
+    },
+    {
+      "number": "lec05",
+      "title": "ex02",
+      "start": 146.35999999999999,
+      "end": 150.76,
+      "text": " So that says, OK, I'm going to replace life with universe."
+    },
+    {
+      "number": "lec05",
+      "title": "ex02",
+      "start": 150.76,
+      "end": 157.04,
+      "text": " And then everything else stays the same, 42 and 0."
+    },
+    {
+      "number": "lec05",
+      "title": "ex02",
+      "start": 157.04,
+      "end": 158.4,
+      "text": " So that would be my answer."
+    },
+    {
+      "number": "lec05",
+      "title": "ex02",
+      "start": 158.4,
+      "end": 162.72,
+      "text": " Universe, everything, 42 and 0."
+    },
+    {
+      "number": "lec05",
+      "title": "ex02",
+      "start": 162.72,
+      "end": 163.68,
+      "text": " Great."
+    },
+    {
+      "number": "lec05",
+      "title": "ex02",
+      "start": 163.68,
+      "end": 166.04,
+      "text": " That's the majority."
+    },
+    {
+      "number": "lec05",
+      "title": "ex02",
+      "start": 166.04,
+      "end": 167.6,
+      "text": " Good job."
+    }
+  ]
+}

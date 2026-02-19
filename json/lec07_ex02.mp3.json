@@ -1,0 +1,175 @@
+{
+  "number": "lec07",
+  "title": "ex02",
+  "text": " The following content is provided under a Creative Commons license. Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free. To make a donation or view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu. So let's see if you can figure out this next error. Oh, nice. Looks like 100% are getting it right so far. So we have L is equal to 3, 4 ion range length L print i, and this is the error message I get telling me the file, the line, and the actual line, line number, and the actual line that is wrong, and then a description of the error type error. And everyone's getting it right, which is what's the problem here. We're not allowed to call length on an integer. If you go through the other choices, you'll see that those you can actually do, and you can even test those out yourself before you settle on the right answer. So let's see if we can get the correct answer. On the right answer.",
+  "chunks": [
+    {
+      "number": "lec07",
+      "title": "ex02",
+      "start": 0.0,
+      "end": 3.16,
+      "text": " The following content is provided under a Creative"
+    },
+    {
+      "number": "lec07",
+      "title": "ex02",
+      "start": 3.16,
+      "end": 4.6000000000000005,
+      "text": " Commons license."
+    },
+    {
+      "number": "lec07",
+      "title": "ex02",
+      "start": 4.6000000000000005,
+      "end": 7.0,
+      "text": " Your support will help MIT OpenCourseWare"
+    },
+    {
+      "number": "lec07",
+      "title": "ex02",
+      "start": 7.0,
+      "end": 11.24,
+      "text": " continue to offer high quality educational resources for free."
+    },
+    {
+      "number": "lec07",
+      "title": "ex02",
+      "start": 11.24,
+      "end": 14.0,
+      "text": " To make a donation or view additional materials"
+    },
+    {
+      "number": "lec07",
+      "title": "ex02",
+      "start": 14.0,
+      "end": 17.92,
+      "text": " from hundreds of MIT courses, visit MIT OpenCourseWare"
+    },
+    {
+      "number": "lec07",
+      "title": "ex02",
+      "start": 17.92,
+      "end": 18.92,
+      "text": " at ocw.mit.edu."
+    },
+    {
+      "number": "lec07",
+      "title": "ex02",
+      "start": 23.32,
+      "end": 25.64,
+      "text": " So let's see if you can figure out this next error."
+    },
+    {
+      "number": "lec07",
+      "title": "ex02",
+      "start": 26.16,
+      "end": 27.400000000000002,
+      "text": " Oh, nice."
+    },
+    {
+      "number": "lec07",
+      "title": "ex02",
+      "start": 27.400000000000002,
+      "end": 31.200000000000003,
+      "text": " Looks like 100% are getting it right so far."
+    },
+    {
+      "number": "lec07",
+      "title": "ex02",
+      "start": 31.200000000000003,
+      "end": 35.16,
+      "text": " So we have L is equal to 3, 4 ion range length L print i,"
+    },
+    {
+      "number": "lec07",
+      "title": "ex02",
+      "start": 35.16,
+      "end": 37.92,
+      "text": " and this is the error message I get telling me the file,"
+    },
+    {
+      "number": "lec07",
+      "title": "ex02",
+      "start": 37.92,
+      "end": 40.96,
+      "text": " the line, and the actual line, line number, and the actual line"
+    },
+    {
+      "number": "lec07",
+      "title": "ex02",
+      "start": 40.96,
+      "end": 43.84,
+      "text": " that is wrong, and then a description of the error type"
+    },
+    {
+      "number": "lec07",
+      "title": "ex02",
+      "start": 43.84,
+      "end": 45.120000000000005,
+      "text": " error."
+    },
+    {
+      "number": "lec07",
+      "title": "ex02",
+      "start": 45.120000000000005,
+      "end": 48.120000000000005,
+      "text": " And everyone's getting it right, which is what's the problem"
+    },
+    {
+      "number": "lec07",
+      "title": "ex02",
+      "start": 48.120000000000005,
+      "end": 48.620000000000005,
+      "text": " here."
+    },
+    {
+      "number": "lec07",
+      "title": "ex02",
+      "start": 48.62,
+      "end": 57.379999999999995,
+      "text": " We're not allowed to call length on an integer."
+    },
+    {
+      "number": "lec07",
+      "title": "ex02",
+      "start": 57.379999999999995,
+      "end": 59.379999999999995,
+      "text": " If you go through the other choices,"
+    },
+    {
+      "number": "lec07",
+      "title": "ex02",
+      "start": 59.379999999999995,
+      "end": 61.099999999999994,
+      "text": " you'll see that those you can actually do,"
+    },
+    {
+      "number": "lec07",
+      "title": "ex02",
+      "start": 61.099999999999994,
+      "end": 64.5,
+      "text": " and you can even test those out yourself before you settle"
+    },
+    {
+      "number": "lec07",
+      "title": "ex02",
+      "start": 64.5,
+      "end": 66.38,
+      "text": " on the right answer."
+    },
+    {
+      "number": "lec07",
+      "title": "ex02",
+      "start": 69.38,
+      "end": 72.38,
+      "text": " So let's see if we can get the correct answer."
+    },
+    {
+      "number": "lec07",
+      "title": "ex02",
+      "start": 72.38,
+      "end": 74.38,
+      "text": " On the right answer."
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "number": "lec03",
+  "title": "ex01",
+  "text": " The following content is provided under a Creative Commons license. Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free. To make a donation or view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu. So the question is, we have the string S is the string 600 is 6-triple-1 and 6-triple-2. So we're going to create this string here, right? It's initially an empty string. I want to mention that the plus equals, for example, if I say A plus equals 1, this is equivalent to A is equal to A plus 1. We've seen this a couple times before, last lecture and lecture before that. So all this means here, this line here, is we're going to take the previous string that we have and we're just going to add it to itself plus the last letter. So the first thing we're going to have is going to be new underscore str is equal to 2. Then this line here is going to say, now I'm going to add to the 2 that I already have, the element at position 0, which is a 6, so I'm going to have 6. Then I'm going to add to that the element at position at index 4. So I'm starting to count from 0, so this is 0, 1, 2, 3, 4, right? So that's a space. And I'm going to go, notice I have 4 and then nothing in the middle, so my stop is going to be length S by default. And I'm going to take every 30 characters. Now every 30 is longer than the actual string I have, right? So we're just going to end at the end of the string. So the next thing that we're going to add is a space. And then the last thing we're doing here is we're starting at 13, so now I'm going to have to count 13. So I'm going to do 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13. That's the 1. I'm going to go backward because of this minus 1. And I'm going to go backward until 10, but right before 10. So 1 less than 10. So I'm going to do 100. So this one, this 0, and then this 0. And then I'm going to print this new string. I think this is right. If you paste it into spider, it should give you 26 space 100. So I think most of the class got it right. Yes, perfect.",
+  "chunks": [
+    {
+      "number": "lec03",
+      "title": "ex01",
+      "start": 0.0,
+      "end": 4.0,
+      "text": " The following content is provided under a Creative Commons license."
+    },
+    {
+      "number": "lec03",
+      "title": "ex01",
+      "start": 4.0,
+      "end": 11.0,
+      "text": " Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free."
+    },
+    {
+      "number": "lec03",
+      "title": "ex01",
+      "start": 11.0,
+      "end": 22.0,
+      "text": " To make a donation or view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu."
+    },
+    {
+      "number": "lec03",
+      "title": "ex01",
+      "start": 22.0,
+      "end": 30.0,
+      "text": " So the question is, we have the string S is the string 600 is 6-triple-1 and 6-triple-2."
+    },
+    {
+      "number": "lec03",
+      "title": "ex01",
+      "start": 30.0,
+      "end": 39.0,
+      "text": " So we're going to create this string here, right? It's initially an empty string."
+    },
+    {
+      "number": "lec03",
+      "title": "ex01",
+      "start": 39.0,
+      "end": 49.0,
+      "text": " I want to mention that the plus equals, for example, if I say A plus equals 1,"
+    },
+    {
+      "number": "lec03",
+      "title": "ex01",
+      "start": 49.0,
+      "end": 53.0,
+      "text": " this is equivalent to A is equal to A plus 1."
+    },
+    {
+      "number": "lec03",
+      "title": "ex01",
+      "start": 53.0,
+      "end": 58.0,
+      "text": " We've seen this a couple times before, last lecture and lecture before that."
+    },
+    {
+      "number": "lec03",
+      "title": "ex01",
+      "start": 58.0,
+      "end": 67.0,
+      "text": " So all this means here, this line here, is we're going to take the previous string that we have"
+    },
+    {
+      "number": "lec03",
+      "title": "ex01",
+      "start": 67.0,
+      "end": 71.0,
+      "text": " and we're just going to add it to itself plus the last letter."
+    },
+    {
+      "number": "lec03",
+      "title": "ex01",
+      "start": 71.0,
+      "end": 82.0,
+      "text": " So the first thing we're going to have is going to be new underscore str is equal to 2."
+    },
+    {
+      "number": "lec03",
+      "title": "ex01",
+      "start": 82.0,
+      "end": 90.0,
+      "text": " Then this line here is going to say, now I'm going to add to the 2 that I already have, the element at position 0,"
+    },
+    {
+      "number": "lec03",
+      "title": "ex01",
+      "start": 90.0,
+      "end": 94.0,
+      "text": " which is a 6, so I'm going to have 6."
+    },
+    {
+      "number": "lec03",
+      "title": "ex01",
+      "start": 94.0,
+      "end": 101.0,
+      "text": " Then I'm going to add to that the element at position at index 4."
+    },
+    {
+      "number": "lec03",
+      "title": "ex01",
+      "start": 101.0,
+      "end": 108.0,
+      "text": " So I'm starting to count from 0, so this is 0, 1, 2, 3, 4, right?"
+    },
+    {
+      "number": "lec03",
+      "title": "ex01",
+      "start": 108.0,
+      "end": 111.0,
+      "text": " So that's a space."
+    },
+    {
+      "number": "lec03",
+      "title": "ex01",
+      "start": 111.0,
+      "end": 120.0,
+      "text": " And I'm going to go, notice I have 4 and then nothing in the middle, so my stop is going to be length S by default."
+    },
+    {
+      "number": "lec03",
+      "title": "ex01",
+      "start": 120.0,
+      "end": 122.0,
+      "text": " And I'm going to take every 30 characters."
+    },
+    {
+      "number": "lec03",
+      "title": "ex01",
+      "start": 122.0,
+      "end": 126.0,
+      "text": " Now every 30 is longer than the actual string I have, right?"
+    },
+    {
+      "number": "lec03",
+      "title": "ex01",
+      "start": 126.0,
+      "end": 132.0,
+      "text": " So we're just going to end at the end of the string."
+    },
+    {
+      "number": "lec03",
+      "title": "ex01",
+      "start": 132.0,
+      "end": 137.0,
+      "text": " So the next thing that we're going to add is a space."
+    },
+    {
+      "number": "lec03",
+      "title": "ex01",
+      "start": 137.0,
+      "end": 143.0,
+      "text": " And then the last thing we're doing here is we're starting at 13, so now I'm going to have to count 13."
+    },
+    {
+      "number": "lec03",
+      "title": "ex01",
+      "start": 143.0,
+      "end": 149.0,
+      "text": " So I'm going to do 0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13."
+    },
+    {
+      "number": "lec03",
+      "title": "ex01",
+      "start": 149.0,
+      "end": 151.0,
+      "text": " That's the 1."
+    },
+    {
+      "number": "lec03",
+      "title": "ex01",
+      "start": 151.0,
+      "end": 155.0,
+      "text": " I'm going to go backward because of this minus 1."
+    },
+    {
+      "number": "lec03",
+      "title": "ex01",
+      "start": 155.0,
+      "end": 159.0,
+      "text": " And I'm going to go backward until 10, but right before 10."
+    },
+    {
+      "number": "lec03",
+      "title": "ex01",
+      "start": 159.0,
+      "end": 161.0,
+      "text": " So 1 less than 10."
+    },
+    {
+      "number": "lec03",
+      "title": "ex01",
+      "start": 161.0,
+      "end": 165.0,
+      "text": " So I'm going to do 100."
+    },
+    {
+      "number": "lec03",
+      "title": "ex01",
+      "start": 165.0,
+      "end": 168.0,
+      "text": " So this one, this 0, and then this 0."
+    },
+    {
+      "number": "lec03",
+      "title": "ex01",
+      "start": 168.0,
+      "end": 172.0,
+      "text": " And then I'm going to print this new string."
+    },
+    {
+      "number": "lec03",
+      "title": "ex01",
+      "start": 173.0,
+      "end": 174.0,
+      "text": " I think this is right."
+    },
+    {
+      "number": "lec03",
+      "title": "ex01",
+      "start": 174.0,
+      "end": 178.0,
+      "text": " If you paste it into spider, it should give you 26 space 100."
+    },
+    {
+      "number": "lec03",
+      "title": "ex01",
+      "start": 178.0,
+      "end": 182.0,
+      "text": " So I think most of the class got it right."
+    },
+    {
+      "number": "lec03",
+      "title": "ex01",
+      "start": 182.0,
+      "end": 184.0,
+      "text": " Yes, perfect."
+    }
+  ]
+}

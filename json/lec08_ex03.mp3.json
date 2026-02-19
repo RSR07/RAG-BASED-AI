@@ -1,0 +1,189 @@
+{
+  "number": "lec08",
+  "title": "ex03",
+  "text": " The following content is provided under a Creative Commons license. Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free. To make a donation or view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu. So we're given this definition for car. We saw that on the previous slide. I want to add a method that's going to change the color of the car. And these are my four choices. And it looks like you guys are getting it right, which is awesome. So define a method to change the color of the car, which does this. So we know that self has to be the first parameter. So we can automatically eliminate A and C. And it's between B and D. And remember, I said you have to be conscious about whose data attribute you're accessing. And in this case, we want to change the color of a particular instance of the car. So we have to say self.color instead of just color. If we just said color, then color would refer to just a variable inside the class, not a data attribute of a particular object.",
+  "chunks": [
+    {
+      "number": "lec08",
+      "title": "ex03",
+      "start": 0.0,
+      "end": 3.16,
+      "text": " The following content is provided under a Creative"
+    },
+    {
+      "number": "lec08",
+      "title": "ex03",
+      "start": 3.16,
+      "end": 4.6000000000000005,
+      "text": " Commons license."
+    },
+    {
+      "number": "lec08",
+      "title": "ex03",
+      "start": 4.6000000000000005,
+      "end": 7.0,
+      "text": " Your support will help MIT OpenCourseWare"
+    },
+    {
+      "number": "lec08",
+      "title": "ex03",
+      "start": 7.0,
+      "end": 11.24,
+      "text": " continue to offer high quality educational resources for free."
+    },
+    {
+      "number": "lec08",
+      "title": "ex03",
+      "start": 11.24,
+      "end": 14.0,
+      "text": " To make a donation or view additional materials"
+    },
+    {
+      "number": "lec08",
+      "title": "ex03",
+      "start": 14.0,
+      "end": 17.92,
+      "text": " from hundreds of MIT courses, visit MIT OpenCourseWare"
+    },
+    {
+      "number": "lec08",
+      "title": "ex03",
+      "start": 17.92,
+      "end": 18.92,
+      "text": " at ocw.mit.edu."
+    },
+    {
+      "number": "lec08",
+      "title": "ex03",
+      "start": 23.16,
+      "end": 26.44,
+      "text": " So we're given this definition for car."
+    },
+    {
+      "number": "lec08",
+      "title": "ex03",
+      "start": 26.44,
+      "end": 28.200000000000003,
+      "text": " We saw that on the previous slide."
+    },
+    {
+      "number": "lec08",
+      "title": "ex03",
+      "start": 30.76,
+      "end": 35.120000000000005,
+      "text": " I want to add a method that's going to change the color of"
+    },
+    {
+      "number": "lec08",
+      "title": "ex03",
+      "start": 35.120000000000005,
+      "end": 36.28,
+      "text": " the car."
+    },
+    {
+      "number": "lec08",
+      "title": "ex03",
+      "start": 36.28,
+      "end": 38.6,
+      "text": " And these are my four choices."
+    },
+    {
+      "number": "lec08",
+      "title": "ex03",
+      "start": 38.6,
+      "end": 41.64,
+      "text": " And it looks like you guys are getting it right, which is"
+    },
+    {
+      "number": "lec08",
+      "title": "ex03",
+      "start": 41.64,
+      "end": 43.400000000000006,
+      "text": " awesome."
+    },
+    {
+      "number": "lec08",
+      "title": "ex03",
+      "start": 43.400000000000006,
+      "end": 45.64,
+      "text": " So define a method to change the color of the car, which"
+    },
+    {
+      "number": "lec08",
+      "title": "ex03",
+      "start": 45.64,
+      "end": 47.08,
+      "text": " does this."
+    },
+    {
+      "number": "lec08",
+      "title": "ex03",
+      "start": 47.08,
+      "end": 51.400000000000006,
+      "text": " So we know that self has to be the first parameter."
+    },
+    {
+      "number": "lec08",
+      "title": "ex03",
+      "start": 51.400000000000006,
+      "end": 54.120000000000005,
+      "text": " So we can automatically eliminate A and C. And it's"
+    },
+    {
+      "number": "lec08",
+      "title": "ex03",
+      "start": 54.12,
+      "end": 60.199999999999996,
+      "text": " between B and D. And remember, I said you have to be"
+    },
+    {
+      "number": "lec08",
+      "title": "ex03",
+      "start": 60.199999999999996,
+      "end": 62.92,
+      "text": " conscious about whose data attribute you're accessing."
+    },
+    {
+      "number": "lec08",
+      "title": "ex03",
+      "start": 62.92,
+      "end": 65.16,
+      "text": " And in this case, we want to change the color of a"
+    },
+    {
+      "number": "lec08",
+      "title": "ex03",
+      "start": 65.16,
+      "end": 67.8,
+      "text": " particular instance of the car."
+    },
+    {
+      "number": "lec08",
+      "title": "ex03",
+      "start": 67.8,
+      "end": 72.44,
+      "text": " So we have to say self.color instead of just color."
+    },
+    {
+      "number": "lec08",
+      "title": "ex03",
+      "start": 72.44,
+      "end": 76.92,
+      "text": " If we just said color, then color would refer to just a"
+    },
+    {
+      "number": "lec08",
+      "title": "ex03",
+      "start": 76.92,
+      "end": 82.72,
+      "text": " variable inside the class, not a data attribute of a"
+    },
+    {
+      "number": "lec08",
+      "title": "ex03",
+      "start": 82.72,
+      "end": 83.76,
+      "text": " particular object."
+    }
+  ]
+}

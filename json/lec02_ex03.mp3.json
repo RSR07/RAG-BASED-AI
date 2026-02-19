@@ -1,0 +1,154 @@
+{
+  "number": "lec02",
+  "title": "ex03",
+  "text": " The following content is provided under a Creative Commons license. Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free. To make a donation or view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu. So we have x is going to be whatever number the user types in. y is going to be whatever number the user types in. First thing I'm going to check is if x is equal to y. So if we type in x is 0 and y is 5, 0 is not equal to 5. So we're not even going to consider what's in this code block. Then we're going to check the next one if 0 is less than 5. And that's true. So this is the very first conditional that evaluates to true. So we're just going to print x is smaller. And I think that's what's being dragged down here. Awesome.",
+  "chunks": [
+    {
+      "number": "lec02",
+      "title": "ex03",
+      "start": 0.0,
+      "end": 3.12,
+      "text": " The following content is provided under a Creative"
+    },
+    {
+      "number": "lec02",
+      "title": "ex03",
+      "start": 3.12,
+      "end": 4.5600000000000005,
+      "text": " Commons license."
+    },
+    {
+      "number": "lec02",
+      "title": "ex03",
+      "start": 4.5600000000000005,
+      "end": 7.6000000000000005,
+      "text": " Your support will help MIT OpenCourseWare continue to"
+    },
+    {
+      "number": "lec02",
+      "title": "ex03",
+      "start": 7.6000000000000005,
+      "end": 11.24,
+      "text": " offer high quality educational resources for free."
+    },
+    {
+      "number": "lec02",
+      "title": "ex03",
+      "start": 11.24,
+      "end": 14.16,
+      "text": " To make a donation or view additional materials from"
+    },
+    {
+      "number": "lec02",
+      "title": "ex03",
+      "start": 14.16,
+      "end": 18.080000000000002,
+      "text": " hundreds of MIT courses, visit MIT OpenCourseWare at"
+    },
+    {
+      "number": "lec02",
+      "title": "ex03",
+      "start": 18.080000000000002,
+      "end": 19.32,
+      "text": " ocw.mit.edu."
+    },
+    {
+      "number": "lec02",
+      "title": "ex03",
+      "start": 22.8,
+      "end": 27.0,
+      "text": " So we have x is going to be whatever number the user"
+    },
+    {
+      "number": "lec02",
+      "title": "ex03",
+      "start": 27.0,
+      "end": 28.4,
+      "text": " types in."
+    },
+    {
+      "number": "lec02",
+      "title": "ex03",
+      "start": 28.4,
+      "end": 31.32,
+      "text": " y is going to be whatever number the user types in."
+    },
+    {
+      "number": "lec02",
+      "title": "ex03",
+      "start": 34.28,
+      "end": 37.480000000000004,
+      "text": " First thing I'm going to check is if x is equal to y."
+    },
+    {
+      "number": "lec02",
+      "title": "ex03",
+      "start": 37.480000000000004,
+      "end": 43.28,
+      "text": " So if we type in x is 0 and y is 5, 0 is not equal to 5."
+    },
+    {
+      "number": "lec02",
+      "title": "ex03",
+      "start": 43.28,
+      "end": 45.08,
+      "text": " So we're not even going to consider"
+    },
+    {
+      "number": "lec02",
+      "title": "ex03",
+      "start": 45.08,
+      "end": 47.36,
+      "text": " what's in this code block."
+    },
+    {
+      "number": "lec02",
+      "title": "ex03",
+      "start": 47.36,
+      "end": 51.44,
+      "text": " Then we're going to check the next one if 0 is less than 5."
+    },
+    {
+      "number": "lec02",
+      "title": "ex03",
+      "start": 51.44,
+      "end": 52.400000000000006,
+      "text": " And that's true."
+    },
+    {
+      "number": "lec02",
+      "title": "ex03",
+      "start": 52.400000000000006,
+      "end": 54.879999999999995,
+      "text": " So this is the very first conditional that"
+    },
+    {
+      "number": "lec02",
+      "title": "ex03",
+      "start": 54.879999999999995,
+      "end": 56.16,
+      "text": " evaluates to true."
+    },
+    {
+      "number": "lec02",
+      "title": "ex03",
+      "start": 56.16,
+      "end": 58.08,
+      "text": " So we're just going to print x is smaller."
+    },
+    {
+      "number": "lec02",
+      "title": "ex03",
+      "start": 58.08,
+      "end": 63.279999999999994,
+      "text": " And I think that's what's being dragged down here."
+    },
+    {
+      "number": "lec02",
+      "title": "ex03",
+      "start": 63.279999999999994,
+      "end": 64.28,
+      "text": " Awesome."
+    }
+  ]
+}

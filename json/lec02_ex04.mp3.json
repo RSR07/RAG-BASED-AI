@@ -1,0 +1,252 @@
+{
+  "number": "lec02",
+  "title": "ex04",
+  "text": " The following content is provided under a Creative Commons license. Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free. To make a donation or view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu. So let's look at the example, or the in-class exercise with while loops. Oh, good. We got some varying responses here. Perfect. So the code is, you're in the last force, go left or right. So here, the while loop is checking if the input is equal to this particular string. And if it is, type the same thing again and ask them for more input. So my question was, what happens when you type in capital R I H E H T? And I think the majority of the class is getting it right. And maybe the people who got who answered this are maybe changing their answer to something else. But you're right. So you ask the question again, go left or right. And that's because Python, again, is very, very particular. We're telling it that the user input must match this string exactly. So capital R I H E H T is going to be, even though it says right, it doesn't match up. So if you wanted, I'll just show you in this example here. If you wanted to take care of that case, then you'd expand on this line right here, which says, while n is equal equal to right, or n is equal equal to capital R I H E H T, or whatever other cases you'd want to take care of.",
+  "chunks": [
+    {
+      "number": "lec02",
+      "title": "ex04",
+      "start": 0.0,
+      "end": 3.16,
+      "text": " The following content is provided under a Creative"
+    },
+    {
+      "number": "lec02",
+      "title": "ex04",
+      "start": 3.16,
+      "end": 4.6000000000000005,
+      "text": " Commons license."
+    },
+    {
+      "number": "lec02",
+      "title": "ex04",
+      "start": 4.6000000000000005,
+      "end": 7.0,
+      "text": " Your support will help MIT OpenCourseWare"
+    },
+    {
+      "number": "lec02",
+      "title": "ex04",
+      "start": 7.0,
+      "end": 11.24,
+      "text": " continue to offer high quality educational resources for free."
+    },
+    {
+      "number": "lec02",
+      "title": "ex04",
+      "start": 11.24,
+      "end": 14.0,
+      "text": " To make a donation or view additional materials"
+    },
+    {
+      "number": "lec02",
+      "title": "ex04",
+      "start": 14.0,
+      "end": 17.92,
+      "text": " from hundreds of MIT courses, visit MIT OpenCourseWare"
+    },
+    {
+      "number": "lec02",
+      "title": "ex04",
+      "start": 17.92,
+      "end": 18.64,
+      "text": " at ocw.mit.edu."
+    },
+    {
+      "number": "lec02",
+      "title": "ex04",
+      "start": 23.080000000000002,
+      "end": 29.400000000000002,
+      "text": " So let's look at the example, or the in-class exercise"
+    },
+    {
+      "number": "lec02",
+      "title": "ex04",
+      "start": 29.4,
+      "end": 30.599999999999998,
+      "text": " with while loops."
+    },
+    {
+      "number": "lec02",
+      "title": "ex04",
+      "start": 30.599999999999998,
+      "end": 31.0,
+      "text": " Oh, good."
+    },
+    {
+      "number": "lec02",
+      "title": "ex04",
+      "start": 31.0,
+      "end": 34.72,
+      "text": " We got some varying responses here."
+    },
+    {
+      "number": "lec02",
+      "title": "ex04",
+      "start": 34.72,
+      "end": 35.6,
+      "text": " Perfect."
+    },
+    {
+      "number": "lec02",
+      "title": "ex04",
+      "start": 35.6,
+      "end": 41.68,
+      "text": " So the code is, you're in the last force, go left or right."
+    },
+    {
+      "number": "lec02",
+      "title": "ex04",
+      "start": 41.68,
+      "end": 43.44,
+      "text": " So here, the while loop is checking"
+    },
+    {
+      "number": "lec02",
+      "title": "ex04",
+      "start": 43.44,
+      "end": 48.0,
+      "text": " if the input is equal to this particular string."
+    },
+    {
+      "number": "lec02",
+      "title": "ex04",
+      "start": 48.0,
+      "end": 49.68,
+      "text": " And if it is, type the same thing again"
+    },
+    {
+      "number": "lec02",
+      "title": "ex04",
+      "start": 49.68,
+      "end": 51.68,
+      "text": " and ask them for more input."
+    },
+    {
+      "number": "lec02",
+      "title": "ex04",
+      "start": 51.68,
+      "end": 55.92,
+      "text": " So my question was, what happens when you type in capital"
+    },
+    {
+      "number": "lec02",
+      "title": "ex04",
+      "start": 55.92,
+      "end": 57.44,
+      "text": " R I H E H T?"
+    },
+    {
+      "number": "lec02",
+      "title": "ex04",
+      "start": 57.44,
+      "end": 59.04,
+      "text": " And I think the majority of the class"
+    },
+    {
+      "number": "lec02",
+      "title": "ex04",
+      "start": 59.04,
+      "end": 60.8,
+      "text": " is getting it right."
+    },
+    {
+      "number": "lec02",
+      "title": "ex04",
+      "start": 60.8,
+      "end": 63.36,
+      "text": " And maybe the people who got who answered this"
+    },
+    {
+      "number": "lec02",
+      "title": "ex04",
+      "start": 63.36,
+      "end": 65.4,
+      "text": " are maybe changing their answer to something else."
+    },
+    {
+      "number": "lec02",
+      "title": "ex04",
+      "start": 65.4,
+      "end": 66.2,
+      "text": " But you're right."
+    },
+    {
+      "number": "lec02",
+      "title": "ex04",
+      "start": 66.2,
+      "end": 69.84,
+      "text": " So you ask the question again, go left or right."
+    },
+    {
+      "number": "lec02",
+      "title": "ex04",
+      "start": 69.84,
+      "end": 73.44,
+      "text": " And that's because Python, again, is very, very particular."
+    },
+    {
+      "number": "lec02",
+      "title": "ex04",
+      "start": 73.44,
+      "end": 77.36,
+      "text": " We're telling it that the user input must match this string"
+    },
+    {
+      "number": "lec02",
+      "title": "ex04",
+      "start": 77.36,
+      "end": 78.36,
+      "text": " exactly."
+    },
+    {
+      "number": "lec02",
+      "title": "ex04",
+      "start": 78.36,
+      "end": 84.88,
+      "text": " So capital R I H E H T is going to be, even though it says"
+    },
+    {
+      "number": "lec02",
+      "title": "ex04",
+      "start": 84.88,
+      "end": 87.24,
+      "text": " right, it doesn't match up."
+    },
+    {
+      "number": "lec02",
+      "title": "ex04",
+      "start": 87.28,
+      "end": 90.32,
+      "text": " So if you wanted, I'll just show you in this example here."
+    },
+    {
+      "number": "lec02",
+      "title": "ex04",
+      "start": 90.32,
+      "end": 94.16,
+      "text": " If you wanted to take care of that case,"
+    },
+    {
+      "number": "lec02",
+      "title": "ex04",
+      "start": 94.16,
+      "end": 100.44,
+      "text": " then you'd expand on this line right here, which says,"
+    },
+    {
+      "number": "lec02",
+      "title": "ex04",
+      "start": 100.44,
+      "end": 105.08,
+      "text": " while n is equal equal to right, or n is equal equal to capital"
+    },
+    {
+      "number": "lec02",
+      "title": "ex04",
+      "start": 105.08,
+      "end": 108.47999999999999,
+      "text": " R I H E H T, or whatever other cases you'd want to take care of."
+    }
+  ]
+}

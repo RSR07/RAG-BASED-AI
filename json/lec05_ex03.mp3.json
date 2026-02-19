@@ -1,0 +1,378 @@
+{
+  "number": "lec05",
+  "title": "ex03",
+  "text": " The following content is provided under a Creative Commons license. Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free. To make a donation or view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu. Let's walk through it. We have three lists. L1 is equal to ray. L2 is equal to me. L3 is equal to dough. L4 is equal to, let's just do what it says here, L1 plus L2. So it's going to be the list ray me. Now, extend is going to mute the list. Now, extend is going to mutate the list. So that means L3 is going to be extended by whatever L4 is. So L3 is going to be, OK, what did it have originally? It had dough. And then it's going to be extended by all of the elements inside L4, which is ray me, like that. And once I've mutated it, the old version of L3 is gone. This is the L3 down here that I'm going to work with. L3.sort is going to sort alphabetically. So that's dough me ray. And sort also mutates the list. So the old version of the list I have is gone. Dell is going to also mutate the list. So it's going to look in L3. Look at index 0. And it's going to delete that element. So it's going to mutate L3. And it's going to be me ray. And once again, I've mutated the list. So the old version is gone. And lastly, this is a tricky part. I'm going to append to my current L3, which looks like this, another list. So to L3, I'm appending another list. So this is going to be the list fa la. So me ray and then the list fa la is the answer, which is red. No, sorry, blue. Good. You got me scared. OK. Perfect. So if you didn't get this, I would suggest you go through the Python tutor, or you just trace it out by hand, just like I just did. And hopefully it'll be sort of apparent. The more exercises you do with lists, what exactly is going on. OK.",
+  "chunks": [
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 0.0,
+      "end": 3.16,
+      "text": " The following content is provided under a Creative"
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 3.16,
+      "end": 4.6000000000000005,
+      "text": " Commons license."
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 4.6000000000000005,
+      "end": 7.0,
+      "text": " Your support will help MIT OpenCourseWare"
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 7.0,
+      "end": 11.24,
+      "text": " continue to offer high quality educational resources for free."
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 11.24,
+      "end": 14.0,
+      "text": " To make a donation or view additional materials"
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 14.0,
+      "end": 17.92,
+      "text": " from hundreds of MIT courses, visit MIT OpenCourseWare"
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 17.92,
+      "end": 18.92,
+      "text": " at ocw.mit.edu."
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 23.64,
+      "end": 25.080000000000002,
+      "text": " Let's walk through it."
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 25.88,
+      "end": 26.959999999999997,
+      "text": " We have three lists."
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 26.959999999999997,
+      "end": 29.56,
+      "text": " L1 is equal to ray."
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 29.56,
+      "end": 33.239999999999995,
+      "text": " L2 is equal to me."
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 33.239999999999995,
+      "end": 34.519999999999996,
+      "text": " L3 is equal to dough."
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 37.239999999999995,
+      "end": 42.44,
+      "text": " L4 is equal to, let's just do what it says here, L1 plus L2."
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 42.44,
+      "end": 46.519999999999996,
+      "text": " So it's going to be the list ray me."
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 49.519999999999996,
+      "end": 52.64,
+      "text": " Now, extend is going to mute the list."
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 53.36,
+      "end": 57.2,
+      "text": " Now, extend is going to mutate the list."
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 57.2,
+      "end": 62.96,
+      "text": " So that means L3 is going to be extended by whatever L4 is."
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 62.96,
+      "end": 65.92,
+      "text": " So L3 is going to be, OK, what did it have originally?"
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 65.92,
+      "end": 68.64,
+      "text": " It had dough."
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 68.64,
+      "end": 70.88,
+      "text": " And then it's going to be extended by all of the elements"
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 70.88,
+      "end": 75.96000000000001,
+      "text": " inside L4, which is ray me, like that."
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 75.96000000000001,
+      "end": 81.12,
+      "text": " And once I've mutated it, the old version of L3 is gone."
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 81.12,
+      "end": 85.28,
+      "text": " This is the L3 down here that I'm going to work with."
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 85.28,
+      "end": 88.32000000000001,
+      "text": " L3.sort is going to sort alphabetically."
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 88.32000000000001,
+      "end": 91.76,
+      "text": " So that's dough me ray."
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 95.56,
+      "end": 97.72,
+      "text": " And sort also mutates the list."
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 97.72,
+      "end": 99.64,
+      "text": " So the old version of the list I have is gone."
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 104.32000000000001,
+      "end": 107.08000000000001,
+      "text": " Dell is going to also mutate the list."
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 107.08000000000001,
+      "end": 109.96000000000001,
+      "text": " So it's going to look in L3."
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 110.0,
+      "end": 112.32,
+      "text": " Look at index 0."
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 112.32,
+      "end": 117.36,
+      "text": " And it's going to delete that element."
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 117.36,
+      "end": 119.19999999999999,
+      "text": " So it's going to mutate L3."
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 119.19999999999999,
+      "end": 123.11999999999999,
+      "text": " And it's going to be me ray."
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 123.11999999999999,
+      "end": 124.75999999999999,
+      "text": " And once again, I've mutated the list."
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 124.75999999999999,
+      "end": 127.96,
+      "text": " So the old version is gone."
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 127.96,
+      "end": 131.07999999999998,
+      "text": " And lastly, this is a tricky part."
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 131.07999999999998,
+      "end": 137.6,
+      "text": " I'm going to append to my current L3, which looks like this,"
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 137.6,
+      "end": 140.32,
+      "text": " another list."
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 140.32,
+      "end": 144.0,
+      "text": " So to L3, I'm appending another list."
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 144.0,
+      "end": 147.84,
+      "text": " So this is going to be the list fa la."
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 153.24,
+      "end": 160.07999999999998,
+      "text": " So me ray and then the list fa la is the answer, which is red."
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 160.07999999999998,
+      "end": 162.6,
+      "text": " No, sorry, blue."
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 162.6,
+      "end": 163.2,
+      "text": " Good."
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 163.2,
+      "end": 164.0,
+      "text": " You got me scared."
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 164.0,
+      "end": 166.0,
+      "text": " OK."
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 166.0,
+      "end": 168.36,
+      "text": " Perfect."
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 168.36,
+      "end": 170.32,
+      "text": " So if you didn't get this, I would suggest"
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 170.32,
+      "end": 173.52,
+      "text": " you go through the Python tutor, or you just"
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 173.52,
+      "end": 175.2,
+      "text": " trace it out by hand, just like I just did."
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 177.96,
+      "end": 180.08,
+      "text": " And hopefully it'll be sort of apparent."
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 180.08,
+      "end": 183.32,
+      "text": " The more exercises you do with lists,"
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 183.32,
+      "end": 184.88,
+      "text": " what exactly is going on."
+    },
+    {
+      "number": "lec05",
+      "title": "ex03",
+      "start": 184.88,
+      "end": 185.88,
+      "text": " OK."
+    }
+  ]
+}

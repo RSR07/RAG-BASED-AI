@@ -1,0 +1,294 @@
+{
+  "number": "lec08",
+  "title": "ex05",
+  "text": " The following content is provided under a Creative Commons license. Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free. To make a donation or view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu. OK. We have our class. We've done pretty much everything up until here. And we're going to add this special function here. So we're implementing this underscore underscore EQ underscore underscore. And implementing this is going to allow us to compare two types of cars. So the way I've decided to compare two types of cars is I'm saying the two cars are going to be equal if they have the same number of wheels, they have the same color, and if they have the same number of doors. So if all of these are equal, then return true and else return false. Inside the two types of cars, we have the same number of doors. Inside the actual program here, I'm creating one car, four wheels, two doors. I'm changing its color to red. I'm creating another car, four wheels, two doors. By default, this new car, or your car, is going to have the color empty string, because that's how a new car gets initialized. So between my car and your car, the difference is going to be the color. So the color is not going to be the same. They have the same number of wheels and the same number of doors. So because I implemented the equal method in my code, this does not throw an error. This lets me proceed. It compares four with four, which is good, two with two, which is good, and then the colors don't match. So it's going to say false, which most of you guys are getting it right.",
+  "chunks": [
+    {
+      "number": "lec08",
+      "title": "ex05",
+      "start": 0.0,
+      "end": 3.16,
+      "text": " The following content is provided under a Creative"
+    },
+    {
+      "number": "lec08",
+      "title": "ex05",
+      "start": 3.16,
+      "end": 4.6000000000000005,
+      "text": " Commons license."
+    },
+    {
+      "number": "lec08",
+      "title": "ex05",
+      "start": 4.6000000000000005,
+      "end": 7.0,
+      "text": " Your support will help MIT OpenCourseWare"
+    },
+    {
+      "number": "lec08",
+      "title": "ex05",
+      "start": 7.0,
+      "end": 11.24,
+      "text": " continue to offer high quality educational resources for free."
+    },
+    {
+      "number": "lec08",
+      "title": "ex05",
+      "start": 11.24,
+      "end": 14.0,
+      "text": " To make a donation or view additional materials"
+    },
+    {
+      "number": "lec08",
+      "title": "ex05",
+      "start": 14.0,
+      "end": 17.92,
+      "text": " from hundreds of MIT courses, visit MIT OpenCourseWare"
+    },
+    {
+      "number": "lec08",
+      "title": "ex05",
+      "start": 17.92,
+      "end": 18.92,
+      "text": " at ocw.mit.edu."
+    },
+    {
+      "number": "lec08",
+      "title": "ex05",
+      "start": 23.96,
+      "end": 24.46,
+      "text": " OK."
+    },
+    {
+      "number": "lec08",
+      "title": "ex05",
+      "start": 24.98,
+      "end": 28.02,
+      "text": " We have our class."
+    },
+    {
+      "number": "lec08",
+      "title": "ex05",
+      "start": 28.02,
+      "end": 32.980000000000004,
+      "text": " We've done pretty much everything up until here."
+    },
+    {
+      "number": "lec08",
+      "title": "ex05",
+      "start": 32.980000000000004,
+      "end": 37.620000000000005,
+      "text": " And we're going to add this special function here."
+    },
+    {
+      "number": "lec08",
+      "title": "ex05",
+      "start": 37.620000000000005,
+      "end": 39.9,
+      "text": " So we're implementing this underscore underscore"
+    },
+    {
+      "number": "lec08",
+      "title": "ex05",
+      "start": 39.9,
+      "end": 42.74,
+      "text": " EQ underscore underscore."
+    },
+    {
+      "number": "lec08",
+      "title": "ex05",
+      "start": 42.74,
+      "end": 48.18,
+      "text": " And implementing this is going to allow us to compare two"
+    },
+    {
+      "number": "lec08",
+      "title": "ex05",
+      "start": 48.18,
+      "end": 49.34,
+      "text": " types of cars."
+    },
+    {
+      "number": "lec08",
+      "title": "ex05",
+      "start": 49.660000000000004,
+      "end": 53.86000000000001,
+      "text": " So the way I've decided to compare two types of cars is"
+    },
+    {
+      "number": "lec08",
+      "title": "ex05",
+      "start": 53.86000000000001,
+      "end": 56.86000000000001,
+      "text": " I'm saying the two cars are going to be equal if they"
+    },
+    {
+      "number": "lec08",
+      "title": "ex05",
+      "start": 56.86000000000001,
+      "end": 59.06,
+      "text": " have the same number of wheels, they have the same color,"
+    },
+    {
+      "number": "lec08",
+      "title": "ex05",
+      "start": 59.06,
+      "end": 62.1,
+      "text": " and if they have the same number of doors."
+    },
+    {
+      "number": "lec08",
+      "title": "ex05",
+      "start": 65.10000000000001,
+      "end": 68.94,
+      "text": " So if all of these are equal, then return true"
+    },
+    {
+      "number": "lec08",
+      "title": "ex05",
+      "start": 68.94,
+      "end": 70.30000000000001,
+      "text": " and else return false."
+    },
+    {
+      "number": "lec08",
+      "title": "ex05",
+      "start": 74.10000000000001,
+      "end": 76.9,
+      "text": " Inside the two types of cars, we have the same number of"
+    },
+    {
+      "number": "lec08",
+      "title": "ex05",
+      "start": 77.9,
+      "end": 78.38000000000001,
+      "text": " doors."
+    },
+    {
+      "number": "lec08",
+      "title": "ex05",
+      "start": 78.38000000000001,
+      "end": 82.26,
+      "text": " Inside the actual program here, I'm creating one car, four"
+    },
+    {
+      "number": "lec08",
+      "title": "ex05",
+      "start": 82.26,
+      "end": 83.22,
+      "text": " wheels, two doors."
+    },
+    {
+      "number": "lec08",
+      "title": "ex05",
+      "start": 83.22,
+      "end": 85.22,
+      "text": " I'm changing its color to red."
+    },
+    {
+      "number": "lec08",
+      "title": "ex05",
+      "start": 85.22,
+      "end": 89.38000000000001,
+      "text": " I'm creating another car, four wheels, two doors."
+    },
+    {
+      "number": "lec08",
+      "title": "ex05",
+      "start": 89.38000000000001,
+      "end": 92.98,
+      "text": " By default, this new car, or your car,"
+    },
+    {
+      "number": "lec08",
+      "title": "ex05",
+      "start": 92.98,
+      "end": 94.78,
+      "text": " is going to have the color empty string,"
+    },
+    {
+      "number": "lec08",
+      "title": "ex05",
+      "start": 94.78,
+      "end": 97.38000000000001,
+      "text": " because that's how a new car gets initialized."
+    },
+    {
+      "number": "lec08",
+      "title": "ex05",
+      "start": 101.46000000000001,
+      "end": 104.78,
+      "text": " So between my car and your car, the difference"
+    },
+    {
+      "number": "lec08",
+      "title": "ex05",
+      "start": 104.78,
+      "end": 106.7,
+      "text": " is going to be the color."
+    },
+    {
+      "number": "lec08",
+      "title": "ex05",
+      "start": 106.74000000000001,
+      "end": 108.22,
+      "text": " So the color is not going to be the same."
+    },
+    {
+      "number": "lec08",
+      "title": "ex05",
+      "start": 108.22,
+      "end": 111.82000000000001,
+      "text": " They have the same number of wheels and the same number of doors."
+    },
+    {
+      "number": "lec08",
+      "title": "ex05",
+      "start": 111.82000000000001,
+      "end": 117.18,
+      "text": " So because I implemented the equal method in my code,"
+    },
+    {
+      "number": "lec08",
+      "title": "ex05",
+      "start": 117.18,
+      "end": 119.18,
+      "text": " this does not throw an error."
+    },
+    {
+      "number": "lec08",
+      "title": "ex05",
+      "start": 119.18,
+      "end": 120.54,
+      "text": " This lets me proceed."
+    },
+    {
+      "number": "lec08",
+      "title": "ex05",
+      "start": 120.54,
+      "end": 123.58,
+      "text": " It compares four with four, which is good, two with two,"
+    },
+    {
+      "number": "lec08",
+      "title": "ex05",
+      "start": 123.58,
+      "end": 125.86,
+      "text": " which is good, and then the colors don't match."
+    },
+    {
+      "number": "lec08",
+      "title": "ex05",
+      "start": 125.86,
+      "end": 129.46,
+      "text": " So it's going to say false, which most of you guys"
+    },
+    {
+      "number": "lec08",
+      "title": "ex05",
+      "start": 129.46,
+      "end": 130.3,
+      "text": " are getting it right."
+    }
+  ]
+}

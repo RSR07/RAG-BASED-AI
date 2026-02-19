@@ -1,0 +1,259 @@
+{
+  "number": "lec09",
+  "title": "ex01",
+  "text": " The following content is provided under a Creative Commons license. Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free. To make a donation or view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu. So we have a class car here, object as usual. The init method here takes in self as usual, a w and a d. So a car gets initialized with two parameters. And we assign the wheels data attribute to the first one and the doors data attribute to the second one. And then we're going to also assign a color data attribute to be the empty string. So I'm giving you four choices here. And the question says, which of the above is a getter method for the number of wheels? So getter method is something that's going to get a data attribute. A method is really just a function. So of course, we're going to have d e f. Get wheels is a good name for it. Since it's a method for this class, we have to have self in the parameters. So we know it's going to be between c and d. And so then what are we going to return? The first one is going to return wheels, which in this particular case is just going to be a variable. Now we haven't defined what it's a variable. A getter returns a data attribute over a particular instance. So we actually have to say self dot if we want to return a data attribute of an instance, as opposed to just a regular variable. So the correct answer is d. Great job.",
+  "chunks": [
+    {
+      "number": "lec09",
+      "title": "ex01",
+      "start": 0.0,
+      "end": 3.16,
+      "text": " The following content is provided under a Creative"
+    },
+    {
+      "number": "lec09",
+      "title": "ex01",
+      "start": 3.16,
+      "end": 4.6000000000000005,
+      "text": " Commons license."
+    },
+    {
+      "number": "lec09",
+      "title": "ex01",
+      "start": 4.6000000000000005,
+      "end": 7.0,
+      "text": " Your support will help MIT OpenCourseWare"
+    },
+    {
+      "number": "lec09",
+      "title": "ex01",
+      "start": 7.0,
+      "end": 11.24,
+      "text": " continue to offer high quality educational resources for free."
+    },
+    {
+      "number": "lec09",
+      "title": "ex01",
+      "start": 11.24,
+      "end": 14.0,
+      "text": " To make a donation or view additional materials"
+    },
+    {
+      "number": "lec09",
+      "title": "ex01",
+      "start": 14.0,
+      "end": 17.92,
+      "text": " from hundreds of MIT courses, visit MIT OpenCourseWare"
+    },
+    {
+      "number": "lec09",
+      "title": "ex01",
+      "start": 17.92,
+      "end": 18.92,
+      "text": " at ocw.mit.edu."
+    },
+    {
+      "number": "lec09",
+      "title": "ex01",
+      "start": 23.48,
+      "end": 29.48,
+      "text": " So we have a class car here, object as usual."
+    },
+    {
+      "number": "lec09",
+      "title": "ex01",
+      "start": 29.48,
+      "end": 35.2,
+      "text": " The init method here takes in self as usual, a w and a d."
+    },
+    {
+      "number": "lec09",
+      "title": "ex01",
+      "start": 35.2,
+      "end": 39.4,
+      "text": " So a car gets initialized with two parameters."
+    },
+    {
+      "number": "lec09",
+      "title": "ex01",
+      "start": 39.4,
+      "end": 42.24,
+      "text": " And we assign the wheels data attribute to the first one"
+    },
+    {
+      "number": "lec09",
+      "title": "ex01",
+      "start": 42.24,
+      "end": 44.92,
+      "text": " and the doors data attribute to the second one."
+    },
+    {
+      "number": "lec09",
+      "title": "ex01",
+      "start": 44.92,
+      "end": 48.64,
+      "text": " And then we're going to also assign a color data attribute"
+    },
+    {
+      "number": "lec09",
+      "title": "ex01",
+      "start": 48.64,
+      "end": 50.32,
+      "text": " to be the empty string."
+    },
+    {
+      "number": "lec09",
+      "title": "ex01",
+      "start": 50.32,
+      "end": 52.2,
+      "text": " So I'm giving you four choices here."
+    },
+    {
+      "number": "lec09",
+      "title": "ex01",
+      "start": 52.2,
+      "end": 54.519999999999996,
+      "text": " And the question says, which of the above is a getter method"
+    },
+    {
+      "number": "lec09",
+      "title": "ex01",
+      "start": 54.519999999999996,
+      "end": 57.08,
+      "text": " for the number of wheels?"
+    },
+    {
+      "number": "lec09",
+      "title": "ex01",
+      "start": 57.08,
+      "end": 59.8,
+      "text": " So getter method is something that's"
+    },
+    {
+      "number": "lec09",
+      "title": "ex01",
+      "start": 59.8,
+      "end": 62.239999999999995,
+      "text": " going to get a data attribute."
+    },
+    {
+      "number": "lec09",
+      "title": "ex01",
+      "start": 62.239999999999995,
+      "end": 63.96,
+      "text": " A method is really just a function."
+    },
+    {
+      "number": "lec09",
+      "title": "ex01",
+      "start": 63.96,
+      "end": 67.03999999999999,
+      "text": " So of course, we're going to have d e f."
+    },
+    {
+      "number": "lec09",
+      "title": "ex01",
+      "start": 67.03999999999999,
+      "end": 70.03999999999999,
+      "text": " Get wheels is a good name for it."
+    },
+    {
+      "number": "lec09",
+      "title": "ex01",
+      "start": 70.03999999999999,
+      "end": 71.6,
+      "text": " Since it's a method for this class,"
+    },
+    {
+      "number": "lec09",
+      "title": "ex01",
+      "start": 71.6,
+      "end": 74.48,
+      "text": " we have to have self in the parameters."
+    },
+    {
+      "number": "lec09",
+      "title": "ex01",
+      "start": 74.48,
+      "end": 77.72,
+      "text": " So we know it's going to be between c and d."
+    },
+    {
+      "number": "lec09",
+      "title": "ex01",
+      "start": 77.72,
+      "end": 79.92,
+      "text": " And so then what are we going to return?"
+    },
+    {
+      "number": "lec09",
+      "title": "ex01",
+      "start": 79.92,
+      "end": 83.24,
+      "text": " The first one is going to return wheels,"
+    },
+    {
+      "number": "lec09",
+      "title": "ex01",
+      "start": 83.24,
+      "end": 84.92,
+      "text": " which in this particular case is just"
+    },
+    {
+      "number": "lec09",
+      "title": "ex01",
+      "start": 84.96000000000001,
+      "end": 86.68,
+      "text": " going to be a variable."
+    },
+    {
+      "number": "lec09",
+      "title": "ex01",
+      "start": 86.68,
+      "end": 89.28,
+      "text": " Now we haven't defined what it's a variable."
+    },
+    {
+      "number": "lec09",
+      "title": "ex01",
+      "start": 89.28,
+      "end": 93.16,
+      "text": " A getter returns a data attribute over a particular instance."
+    },
+    {
+      "number": "lec09",
+      "title": "ex01",
+      "start": 93.16,
+      "end": 95.96000000000001,
+      "text": " So we actually have to say self dot"
+    },
+    {
+      "number": "lec09",
+      "title": "ex01",
+      "start": 95.96000000000001,
+      "end": 98.28,
+      "text": " if we want to return a data attribute of an instance,"
+    },
+    {
+      "number": "lec09",
+      "title": "ex01",
+      "start": 98.28,
+      "end": 100.36,
+      "text": " as opposed to just a regular variable."
+    },
+    {
+      "number": "lec09",
+      "title": "ex01",
+      "start": 100.36,
+      "end": 103.4,
+      "text": " So the correct answer is d."
+    },
+    {
+      "number": "lec09",
+      "title": "ex01",
+      "start": 103.4,
+      "end": 105.0,
+      "text": " Great job."
+    }
+  ]
+}

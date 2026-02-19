@@ -1,0 +1,252 @@
+{
+  "number": "lec02",
+  "title": "ex05",
+  "text": " The following content is provided under a Creative Commons license. Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free. To make a donation or view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu. So now we have this last exercise. I'm creating a mySum. I'm going to go through all of these values. And you guys have already told me what values these are. 5, 7, 9, not 11. And I'm going to add to mySum. So I'm going to keep a running sum, adding all of these values together. So the very first time through the loop, mySum gets the value of 5. That's this line here. The next thing I see inside this loop is an if statement. If mySum is equal to 5, that's true. So I'm going to go inside this if statement. The next thing I see is a break. If I see this break, am I evaluating this line or not? No, exactly. Because whenever Python sees break, it's going to say, I'm going to stop right here, exit out of the loop that I'm currently in, and go to the statement that's immediately right after it. So what this is going to print is mySum. And that's the exercise we were looking at. Let's see how the class did. Pretty good. Hopefully, if you answered one of these, the explanation was all right. If not, just go back and try to work through it step by step.",
+  "chunks": [
+    {
+      "number": "lec02",
+      "title": "ex05",
+      "start": 0.0,
+      "end": 3.16,
+      "text": " The following content is provided under a Creative"
+    },
+    {
+      "number": "lec02",
+      "title": "ex05",
+      "start": 3.16,
+      "end": 4.6000000000000005,
+      "text": " Commons license."
+    },
+    {
+      "number": "lec02",
+      "title": "ex05",
+      "start": 4.6000000000000005,
+      "end": 7.0,
+      "text": " Your support will help MIT OpenCourseWare"
+    },
+    {
+      "number": "lec02",
+      "title": "ex05",
+      "start": 7.0,
+      "end": 11.24,
+      "text": " continue to offer high quality educational resources for free."
+    },
+    {
+      "number": "lec02",
+      "title": "ex05",
+      "start": 11.24,
+      "end": 14.0,
+      "text": " To make a donation or view additional materials"
+    },
+    {
+      "number": "lec02",
+      "title": "ex05",
+      "start": 14.0,
+      "end": 17.92,
+      "text": " from hundreds of MIT courses, visit MIT OpenCourseWare"
+    },
+    {
+      "number": "lec02",
+      "title": "ex05",
+      "start": 17.92,
+      "end": 18.92,
+      "text": " at ocw.mit.edu."
+    },
+    {
+      "number": "lec02",
+      "title": "ex05",
+      "start": 23.8,
+      "end": 27.84,
+      "text": " So now we have this last exercise."
+    },
+    {
+      "number": "lec02",
+      "title": "ex05",
+      "start": 27.84,
+      "end": 30.24,
+      "text": " I'm creating a mySum."
+    },
+    {
+      "number": "lec02",
+      "title": "ex05",
+      "start": 30.24,
+      "end": 32.36,
+      "text": " I'm going to go through all of these values."
+    },
+    {
+      "number": "lec02",
+      "title": "ex05",
+      "start": 32.36,
+      "end": 34.64,
+      "text": " And you guys have already told me what values these are."
+    },
+    {
+      "number": "lec02",
+      "title": "ex05",
+      "start": 34.64,
+      "end": 39.56,
+      "text": " 5, 7, 9, not 11."
+    },
+    {
+      "number": "lec02",
+      "title": "ex05",
+      "start": 39.56,
+      "end": 41.32,
+      "text": " And I'm going to add to mySum."
+    },
+    {
+      "number": "lec02",
+      "title": "ex05",
+      "start": 41.32,
+      "end": 43.879999999999995,
+      "text": " So I'm going to keep a running sum, adding all of these"
+    },
+    {
+      "number": "lec02",
+      "title": "ex05",
+      "start": 43.879999999999995,
+      "end": 46.92,
+      "text": " values together."
+    },
+    {
+      "number": "lec02",
+      "title": "ex05",
+      "start": 46.92,
+      "end": 51.4,
+      "text": " So the very first time through the loop, mySum gets the"
+    },
+    {
+      "number": "lec02",
+      "title": "ex05",
+      "start": 51.4,
+      "end": 55.36,
+      "text": " value of 5."
+    },
+    {
+      "number": "lec02",
+      "title": "ex05",
+      "start": 55.36,
+      "end": 57.32,
+      "text": " That's this line here."
+    },
+    {
+      "number": "lec02",
+      "title": "ex05",
+      "start": 57.32,
+      "end": 61.24,
+      "text": " The next thing I see inside this loop is an if statement."
+    },
+    {
+      "number": "lec02",
+      "title": "ex05",
+      "start": 61.24,
+      "end": 66.2,
+      "text": " If mySum is equal to 5, that's true."
+    },
+    {
+      "number": "lec02",
+      "title": "ex05",
+      "start": 66.2,
+      "end": 68.8,
+      "text": " So I'm going to go inside this if statement."
+    },
+    {
+      "number": "lec02",
+      "title": "ex05",
+      "start": 68.8,
+      "end": 70.36,
+      "text": " The next thing I see is a break."
+    },
+    {
+      "number": "lec02",
+      "title": "ex05",
+      "start": 73.16,
+      "end": 78.16,
+      "text": " If I see this break, am I evaluating this line or not?"
+    },
+    {
+      "number": "lec02",
+      "title": "ex05",
+      "start": 78.16,
+      "end": 79.52,
+      "text": " No, exactly."
+    },
+    {
+      "number": "lec02",
+      "title": "ex05",
+      "start": 79.52,
+      "end": 84.08,
+      "text": " Because whenever Python sees break, it's going to say, I'm"
+    },
+    {
+      "number": "lec02",
+      "title": "ex05",
+      "start": 84.08,
+      "end": 86.68,
+      "text": " going to stop right here, exit out of the loop that I'm"
+    },
+    {
+      "number": "lec02",
+      "title": "ex05",
+      "start": 86.68,
+      "end": 89.92,
+      "text": " currently in, and go to the statement that's"
+    },
+    {
+      "number": "lec02",
+      "title": "ex05",
+      "start": 89.92,
+      "end": 92.04,
+      "text": " immediately right after it."
+    },
+    {
+      "number": "lec02",
+      "title": "ex05",
+      "start": 92.04,
+      "end": 94.72000000000001,
+      "text": " So what this is going to print is mySum."
+    },
+    {
+      "number": "lec02",
+      "title": "ex05",
+      "start": 94.72000000000001,
+      "end": 97.2,
+      "text": " And that's the exercise we were looking at."
+    },
+    {
+      "number": "lec02",
+      "title": "ex05",
+      "start": 97.2,
+      "end": 98.84,
+      "text": " Let's see how the class did."
+    },
+    {
+      "number": "lec02",
+      "title": "ex05",
+      "start": 101.48,
+      "end": 102.48,
+      "text": " Pretty good."
+    },
+    {
+      "number": "lec02",
+      "title": "ex05",
+      "start": 105.2,
+      "end": 110.08000000000001,
+      "text": " Hopefully, if you answered one of these, the explanation was"
+    },
+    {
+      "number": "lec02",
+      "title": "ex05",
+      "start": 110.08000000000001,
+      "end": 110.32000000000001,
+      "text": " all right."
+    },
+    {
+      "number": "lec02",
+      "title": "ex05",
+      "start": 110.32000000000001,
+      "end": 113.16000000000001,
+      "text": " If not, just go back and try to work through it step by step."
+    }
+  ]
+}

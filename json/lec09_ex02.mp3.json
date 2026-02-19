@@ -1,0 +1,420 @@
+{
+  "number": "lec09",
+  "title": "ex02",
+  "text": " The following content is provided under a Creative Commons license. Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free. To make a donation or view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu. So I have here, first part is just the top part. So I have some blank line, and then I'm defining a method named speak. So write a line to replace blank that creates a class for a dog that inherits from animal. So the first thing I notice is that I need to write a definition for a class whose name is dog. So my choices are these. So I can tell it's either the first or the third one. And then I want to inherit from animal. So I don't want to inherit from object, but I want to inherit from animal. So that's perfect. Next question says, with this definition of dog, you run a program with those three lines. What happens? So this is my definition, and I have these three lines. Let's go down here. Nice. OK. So with these three lines, this first line says, d is equal to dog 7, so I'm creating a dog object with age 7. Is this line going to throw an error? Well, this line actually looks for an init method. This particular class definition doesn't have an init method, but hey, I'm inheriting from someone. I'm inheriting from animal. Does animal have an init method? And it does, as we saw in the slides. OK. So we're creating a new dog with age 7 and name none. So that line doesn't throw an error. The next line sets the name to ruffles. And again, I don't have a set name method inside this particular class, but does my animal class, my parent class, have a set name method? And yes, it does right here. So I call that one. So that line does not throw an error. And the third line says, d dot speak. And the third line says, d dot speak, which is going to cause Python to look in this current class definition. And it says, hey, I have a method here named speak. So I'm going to use this one. And it's going to print ruff ruff, because it's a method. So you can just, it's like a function. You can just print things. You don't need to return anything. So perfect. Most of you are getting that right.",
+  "chunks": [
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 0.0,
+      "end": 3.12,
+      "text": " The following content is provided under a Creative"
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 3.12,
+      "end": 4.5600000000000005,
+      "text": " Commons license."
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 4.5600000000000005,
+      "end": 6.96,
+      "text": " Your support will help MIT OpenCourseWare"
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 6.96,
+      "end": 11.200000000000001,
+      "text": " continue to offer high quality educational resources for free."
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 11.200000000000001,
+      "end": 13.96,
+      "text": " To make a donation or view additional materials"
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 13.96,
+      "end": 17.88,
+      "text": " from hundreds of MIT courses, visit MIT OpenCourseWare"
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 17.88,
+      "end": 18.76,
+      "text": " at ocw.mit.edu."
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 23.68,
+      "end": 28.0,
+      "text": " So I have here, first part is just the top part."
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 28.0,
+      "end": 32.12,
+      "text": " So I have some blank line, and then I'm defining a method"
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 32.12,
+      "end": 33.96,
+      "text": " named speak."
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 33.96,
+      "end": 35.6,
+      "text": " So write a line to replace blank that"
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 35.6,
+      "end": 39.96,
+      "text": " creates a class for a dog that inherits from animal."
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 39.96,
+      "end": 41.72,
+      "text": " So the first thing I notice is that I"
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 41.72,
+      "end": 45.480000000000004,
+      "text": " need to write a definition for a class whose name is dog."
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 48.36,
+      "end": 50.96,
+      "text": " So my choices are these."
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 50.96,
+      "end": 54.72,
+      "text": " So I can tell it's either the first or the third one."
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 54.72,
+      "end": 56.879999999999995,
+      "text": " And then I want to inherit from animal."
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 56.92,
+      "end": 59.52,
+      "text": " So I don't want to inherit from object,"
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 59.52,
+      "end": 61.400000000000006,
+      "text": " but I want to inherit from animal."
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 61.400000000000006,
+      "end": 64.60000000000001,
+      "text": " So that's perfect."
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 64.60000000000001,
+      "end": 66.96000000000001,
+      "text": " Next question says, with this definition of dog,"
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 66.96000000000001,
+      "end": 69.44,
+      "text": " you run a program with those three lines."
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 69.44,
+      "end": 71.92,
+      "text": " What happens?"
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 71.92,
+      "end": 75.6,
+      "text": " So this is my definition, and I have these three lines."
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 75.6,
+      "end": 77.88,
+      "text": " Let's go down here."
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 77.88,
+      "end": 78.6,
+      "text": " Nice."
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 78.6,
+      "end": 79.1,
+      "text": " OK."
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 82.0,
+      "end": 84.80000000000001,
+      "text": " So with these three lines, this first line says,"
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 84.8,
+      "end": 91.47999999999999,
+      "text": " d is equal to dog 7, so I'm creating a dog object with age 7."
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 91.47999999999999,
+      "end": 94.39999999999999,
+      "text": " Is this line going to throw an error?"
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 94.39999999999999,
+      "end": 97.92,
+      "text": " Well, this line actually looks for an init method."
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 97.92,
+      "end": 99.75999999999999,
+      "text": " This particular class definition"
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 99.75999999999999,
+      "end": 103.16,
+      "text": " doesn't have an init method, but hey,"
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 103.16,
+      "end": 104.88,
+      "text": " I'm inheriting from someone."
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 104.88,
+      "end": 106.47999999999999,
+      "text": " I'm inheriting from animal."
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 106.47999999999999,
+      "end": 108.52,
+      "text": " Does animal have an init method?"
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 108.52,
+      "end": 110.92,
+      "text": " And it does, as we saw in the slides."
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 111.92,
+      "end": 112.32000000000001,
+      "text": " OK."
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 112.32000000000001,
+      "end": 117.16,
+      "text": " So we're creating a new dog with age 7 and name none."
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 117.16,
+      "end": 118.96000000000001,
+      "text": " So that line doesn't throw an error."
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 118.96000000000001,
+      "end": 121.44,
+      "text": " The next line sets the name to ruffles."
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 121.44,
+      "end": 123.4,
+      "text": " And again, I don't have a set name method"
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 123.4,
+      "end": 127.84,
+      "text": " inside this particular class, but does my animal class,"
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 127.84,
+      "end": 129.44,
+      "text": " my parent class, have a set name method?"
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 129.44,
+      "end": 131.96,
+      "text": " And yes, it does right here."
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 131.96,
+      "end": 134.32,
+      "text": " So I call that one."
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 134.32,
+      "end": 136.28,
+      "text": " So that line does not throw an error."
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 136.28,
+      "end": 138.6,
+      "text": " And the third line says, d dot speak."
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 138.64,
+      "end": 142.0,
+      "text": " And the third line says, d dot speak, which"
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 142.0,
+      "end": 144.44,
+      "text": " is going to cause Python to look in this current class"
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 144.44,
+      "end": 145.0,
+      "text": " definition."
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 145.0,
+      "end": 147.4,
+      "text": " And it says, hey, I have a method here named speak."
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 147.4,
+      "end": 149.32,
+      "text": " So I'm going to use this one."
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 149.32,
+      "end": 151.79999999999998,
+      "text": " And it's going to print ruff ruff, because it's a method."
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 151.79999999999998,
+      "end": 158.88,
+      "text": " So you can just, it's like a function."
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 158.88,
+      "end": 159.79999999999998,
+      "text": " You can just print things."
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 159.79999999999998,
+      "end": 161.79999999999998,
+      "text": " You don't need to return anything."
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 161.79999999999998,
+      "end": 163.12,
+      "text": " So perfect."
+    },
+    {
+      "number": "lec09",
+      "title": "ex02",
+      "start": 163.12,
+      "end": 165.4,
+      "text": " Most of you are getting that right."
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "number": "lec05",
+  "title": "ex01",
+  "text": " The following content is provided under a Creative Commons license. Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free. To make a donation or view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu. All right, we've got some good competition here. So let's actually work through it. OK. So I have a function called always sunny. And it's going to take in two variables, T1 and T2. And I'm calling it with cloudy and cold. So when I do my function call, T1 is going to be equal to cloudy. These are strings, but I'm not going to bother putting the quotes. And T2 is equal to cold, comma. So remember what I said. With a comma, it's a tuple. Without a comma, it's a string. So T1 is actually going to be a string. And T2 is actually a tuple. So that's the first sort of trick to this question. So I've made my function call, and I've assigned T1 and T2 to be those two values. So the next line is sun is equal to sunny, comma, sun. So sun is going to be this tuple of two strings. The next line is figuring out what first is. So first is going to be. So I'm looking at my T1 here. It's a string. The fact that I have parentheses doesn't actually make a difference when I'm talking about strings. So when I'm indexing into a string, T1 at position 0 actually just gives me a C. Because it's a string, not a tuple. And T2 at position 0 says, OK, well, this is a tuple that contains only one element, that element being at position 0. And that element is this string, cold. So this is a tuple. So I'm taking everything right before the first comma. And that happens to be just the one element that's in there. So this is just the string C, cold. And then I'm returning here a tuple. And the tuple I'm returning is sun at position 0. So that's just sunny, comma, just doing what's in here. And then first, and first was this string C, cold. So really the important thing about this example is that I about this example was to make sure that you understand the difference between what a string is and what a tuple is.",
+  "chunks": [
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 0.0,
+      "end": 3.16,
+      "text": " The following content is provided under a Creative"
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 3.16,
+      "end": 4.6000000000000005,
+      "text": " Commons license."
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 4.6000000000000005,
+      "end": 7.0,
+      "text": " Your support will help MIT OpenCourseWare"
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 7.0,
+      "end": 11.24,
+      "text": " continue to offer high quality educational resources for free."
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 11.24,
+      "end": 14.0,
+      "text": " To make a donation or view additional materials"
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 14.0,
+      "end": 17.92,
+      "text": " from hundreds of MIT courses, visit MIT OpenCourseWare"
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 17.92,
+      "end": 18.92,
+      "text": " at ocw.mit.edu."
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 22.6,
+      "end": 25.36,
+      "text": " All right, we've got some good competition here."
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 25.36,
+      "end": 27.36,
+      "text": " So let's actually work through it."
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 30.64,
+      "end": 31.14,
+      "text": " OK."
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 34.2,
+      "end": 37.04,
+      "text": " So I have a function called always sunny."
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 37.04,
+      "end": 42.0,
+      "text": " And it's going to take in two variables, T1 and T2."
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 42.0,
+      "end": 47.760000000000005,
+      "text": " And I'm calling it with cloudy and cold."
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 47.760000000000005,
+      "end": 59.08,
+      "text": " So when I do my function call, T1 is going to be equal to cloudy."
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 59.08,
+      "end": 63.879999999999995,
+      "text": " These are strings, but I'm not going to bother putting the quotes."
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 63.879999999999995,
+      "end": 70.84,
+      "text": " And T2 is equal to cold, comma."
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 70.84,
+      "end": 73.64,
+      "text": " So remember what I said."
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 73.64,
+      "end": 75.12,
+      "text": " With a comma, it's a tuple."
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 75.12,
+      "end": 77.24,
+      "text": " Without a comma, it's a string."
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 77.24,
+      "end": 80.88,
+      "text": " So T1 is actually going to be a string."
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 80.88,
+      "end": 83.92,
+      "text": " And T2 is actually a tuple."
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 83.92,
+      "end": 85.96,
+      "text": " So that's the first sort of trick to this question."
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 89.08,
+      "end": 92.0,
+      "text": " So I've made my function call, and I've assigned T1 and T2"
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 92.0,
+      "end": 95.96,
+      "text": " to be those two values."
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 95.96,
+      "end": 99.8,
+      "text": " So the next line is sun is equal to sunny, comma, sun."
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 99.8,
+      "end": 102.08,
+      "text": " So sun is going to be this tuple of two strings."
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 104.8,
+      "end": 110.2,
+      "text": " The next line is figuring out what first is."
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 110.2,
+      "end": 115.75999999999999,
+      "text": " So first is going to be."
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 115.75999999999999,
+      "end": 117.32,
+      "text": " So I'm looking at my T1 here."
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 117.32,
+      "end": 119.08,
+      "text": " It's a string."
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 119.08,
+      "end": 120.91999999999999,
+      "text": " The fact that I have parentheses doesn't actually"
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 120.91999999999999,
+      "end": 124.19999999999999,
+      "text": " make a difference when I'm talking about strings."
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 129.16,
+      "end": 131.92,
+      "text": " So when I'm indexing into a string,"
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 131.92,
+      "end": 136.76,
+      "text": " T1 at position 0 actually just gives me a C."
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 136.76,
+      "end": 138.4,
+      "text": " Because it's a string, not a tuple."
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 142.2,
+      "end": 146.16,
+      "text": " And T2 at position 0 says, OK, well, this"
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 146.16,
+      "end": 149.68,
+      "text": " is a tuple that contains only one element, that element being"
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 149.68,
+      "end": 151.79999999999998,
+      "text": " at position 0."
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 151.79999999999998,
+      "end": 154.12,
+      "text": " And that element is this string, cold."
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 157.6,
+      "end": 158.92,
+      "text": " So this is a tuple."
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 158.92,
+      "end": 163.07999999999998,
+      "text": " So I'm taking everything right before the first comma."
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 163.07999999999998,
+      "end": 168.07999999999998,
+      "text": " And that happens to be just the one element that's in there."
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 168.07999999999998,
+      "end": 170.12,
+      "text": " So this is just the string C, cold."
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 171.12,
+      "end": 175.12,
+      "text": " And then I'm returning here a tuple."
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 175.12,
+      "end": 178.96,
+      "text": " And the tuple I'm returning is sun at position 0."
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 178.96,
+      "end": 186.8,
+      "text": " So that's just sunny, comma, just doing what's in here."
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 186.8,
+      "end": 190.76,
+      "text": " And then first, and first was this string C, cold."
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 194.16,
+      "end": 198.20000000000002,
+      "text": " So really the important thing about this example is that I"
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 199.04,
+      "end": 201.16,
+      "text": " about this example was to make sure"
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 201.16,
+      "end": 203.11999999999998,
+      "text": " that you understand the difference between what"
+    },
+    {
+      "number": "lec05",
+      "title": "ex01",
+      "start": 203.11999999999998,
+      "end": 205.35999999999999,
+      "text": " a string is and what a tuple is."
+    }
+  ]
+}

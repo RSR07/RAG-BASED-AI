@@ -1,0 +1,259 @@
+{
+  "number": "lec07",
+  "title": "ex01",
+  "text": " The following content is provided under a Creative Commons license. Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free. To make a donation or view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu. Let's look at this exercise. All right. So we have this function isEven, same one as before, except now I'm giving you this implementation. If n is positive and n divided by 2's remainder is 0, return true. So if n is even and positive return true, the next one, if n is negative and divisible by 2, return true. OK, so far. And otherwise, return false. Question being, with that implementation, is this test set n is 4 and is minus 4 path complete? And the answer is yes, because 4 is an even number, is a positive number and divisible by 2. Minus 4 is an even number, sorry, minus 4 is a negative number and divisible by 2. And 5 would hit upon the else. So the answer is actually yes for that first question. Perfect. Second question, with that implementation, which value for n is incorrectly labeled by that program? And well, n is very large, still works, n is very small, still works. And remember, I said you have to test boundary conditions, in this case, boundary conditions for this program being when n is equal to 0. So I think the orange is n is equal to 0. Perfect.",
+  "chunks": [
+    {
+      "number": "lec07",
+      "title": "ex01",
+      "start": 0.0,
+      "end": 3.16,
+      "text": " The following content is provided under a Creative"
+    },
+    {
+      "number": "lec07",
+      "title": "ex01",
+      "start": 3.16,
+      "end": 4.6000000000000005,
+      "text": " Commons license."
+    },
+    {
+      "number": "lec07",
+      "title": "ex01",
+      "start": 4.6000000000000005,
+      "end": 7.0,
+      "text": " Your support will help MIT OpenCourseWare"
+    },
+    {
+      "number": "lec07",
+      "title": "ex01",
+      "start": 7.0,
+      "end": 11.24,
+      "text": " continue to offer high quality educational resources for free."
+    },
+    {
+      "number": "lec07",
+      "title": "ex01",
+      "start": 11.24,
+      "end": 14.0,
+      "text": " To make a donation or view additional materials"
+    },
+    {
+      "number": "lec07",
+      "title": "ex01",
+      "start": 14.0,
+      "end": 17.92,
+      "text": " from hundreds of MIT courses, visit MIT OpenCourseWare"
+    },
+    {
+      "number": "lec07",
+      "title": "ex01",
+      "start": 17.92,
+      "end": 18.92,
+      "text": " at ocw.mit.edu."
+    },
+    {
+      "number": "lec07",
+      "title": "ex01",
+      "start": 23.8,
+      "end": 25.0,
+      "text": " Let's look at this exercise."
+    },
+    {
+      "number": "lec07",
+      "title": "ex01",
+      "start": 31.0,
+      "end": 32.4,
+      "text": " All right."
+    },
+    {
+      "number": "lec07",
+      "title": "ex01",
+      "start": 32.4,
+      "end": 36.6,
+      "text": " So we have this function isEven, same one as before,"
+    },
+    {
+      "number": "lec07",
+      "title": "ex01",
+      "start": 36.6,
+      "end": 40.24,
+      "text": " except now I'm giving you this implementation."
+    },
+    {
+      "number": "lec07",
+      "title": "ex01",
+      "start": 40.24,
+      "end": 48.08,
+      "text": " If n is positive and n divided by 2's remainder is 0,"
+    },
+    {
+      "number": "lec07",
+      "title": "ex01",
+      "start": 48.08,
+      "end": 48.96,
+      "text": " return true."
+    },
+    {
+      "number": "lec07",
+      "title": "ex01",
+      "start": 48.96,
+      "end": 51.56,
+      "text": " So if n is even and positive return true,"
+    },
+    {
+      "number": "lec07",
+      "title": "ex01",
+      "start": 51.56,
+      "end": 55.32,
+      "text": " the next one, if n is negative and divisible by 2,"
+    },
+    {
+      "number": "lec07",
+      "title": "ex01",
+      "start": 55.32,
+      "end": 56.56,
+      "text": " return true."
+    },
+    {
+      "number": "lec07",
+      "title": "ex01",
+      "start": 56.56,
+      "end": 57.8,
+      "text": " OK, so far."
+    },
+    {
+      "number": "lec07",
+      "title": "ex01",
+      "start": 57.8,
+      "end": 61.4,
+      "text": " And otherwise, return false."
+    },
+    {
+      "number": "lec07",
+      "title": "ex01",
+      "start": 61.4,
+      "end": 64.56,
+      "text": " Question being, with that implementation,"
+    },
+    {
+      "number": "lec07",
+      "title": "ex01",
+      "start": 64.56,
+      "end": 71.03999999999999,
+      "text": " is this test set n is 4 and is minus 4 path complete?"
+    },
+    {
+      "number": "lec07",
+      "title": "ex01",
+      "start": 71.03999999999999,
+      "end": 77.03999999999999,
+      "text": " And the answer is yes, because 4 is an even number,"
+    },
+    {
+      "number": "lec07",
+      "title": "ex01",
+      "start": 77.03999999999999,
+      "end": 80.12,
+      "text": " is a positive number and divisible by 2."
+    },
+    {
+      "number": "lec07",
+      "title": "ex01",
+      "start": 80.12,
+      "end": 85.88,
+      "text": " Minus 4 is an even number, sorry, minus 4 is a negative number"
+    },
+    {
+      "number": "lec07",
+      "title": "ex01",
+      "start": 85.88,
+      "end": 87.56,
+      "text": " and divisible by 2."
+    },
+    {
+      "number": "lec07",
+      "title": "ex01",
+      "start": 87.56,
+      "end": 89.36,
+      "text": " And 5 would hit upon the else."
+    },
+    {
+      "number": "lec07",
+      "title": "ex01",
+      "start": 93.36,
+      "end": 96.76,
+      "text": " So the answer is actually yes for that first question."
+    },
+    {
+      "number": "lec07",
+      "title": "ex01",
+      "start": 96.76,
+      "end": 97.26,
+      "text": " Perfect."
+    },
+    {
+      "number": "lec07",
+      "title": "ex01",
+      "start": 100.32000000000001,
+      "end": 103.04,
+      "text": " Second question, with that implementation,"
+    },
+    {
+      "number": "lec07",
+      "title": "ex01",
+      "start": 103.04,
+      "end": 107.4,
+      "text": " which value for n is incorrectly labeled by that program?"
+    },
+    {
+      "number": "lec07",
+      "title": "ex01",
+      "start": 107.4,
+      "end": 110.4,
+      "text": " And well, n is very large, still works,"
+    },
+    {
+      "number": "lec07",
+      "title": "ex01",
+      "start": 110.4,
+      "end": 111.64,
+      "text": " n is very small, still works."
+    },
+    {
+      "number": "lec07",
+      "title": "ex01",
+      "start": 111.64,
+      "end": 114.24000000000001,
+      "text": " And remember, I said you have to test boundary conditions,"
+    },
+    {
+      "number": "lec07",
+      "title": "ex01",
+      "start": 114.24000000000001,
+      "end": 116.24000000000001,
+      "text": " in this case, boundary conditions for this program"
+    },
+    {
+      "number": "lec07",
+      "title": "ex01",
+      "start": 116.28,
+      "end": 118.55999999999999,
+      "text": " being when n is equal to 0."
+    },
+    {
+      "number": "lec07",
+      "title": "ex01",
+      "start": 118.55999999999999,
+      "end": 121.39999999999999,
+      "text": " So I think the orange is n is equal to 0."
+    },
+    {
+      "number": "lec07",
+      "title": "ex01",
+      "start": 121.39999999999999,
+      "end": 123.39999999999999,
+      "text": " Perfect."
+    }
+  ]
+}

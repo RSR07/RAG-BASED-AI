@@ -1,0 +1,224 @@
+{
+  "number": "lec05",
+  "title": "ex04",
+  "text": " The following content is provided under a Creative Commons license. Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free. To make a donation or view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu. All right, so let's see. So first we have L1 is equal to bacon, eggs. I'm going to short for it. I'm going to shorthand this. L2 is equal to toast and jam. Brunch, I should actually make these arrows. Brunch is equal to L1. So this is just aliasing, which means brunch is going to point to whatever L1 object points to. And if I do L1.appendJuice, L1 is now going to be bacon, eggs, and juice. This L1 has been mutated to be that. And since brunch still points to the same object that L1 points to, brunch is now going to point to there. So when I do brunch.extendL2, I'm going to take whatever brunch is, which is this part here. And I'm going to extend it by L2, which is toast and jam. So it's just going to contain a large list of those five elements because of this side effect issue, where brunch was pointing to the same thing that L1 was pointing to. So it's close. But I think perfect. Yes. That's the right answer.",
+  "chunks": [
+    {
+      "number": "lec05",
+      "title": "ex04",
+      "start": 0.0,
+      "end": 3.16,
+      "text": " The following content is provided under a Creative"
+    },
+    {
+      "number": "lec05",
+      "title": "ex04",
+      "start": 3.16,
+      "end": 4.6000000000000005,
+      "text": " Commons license."
+    },
+    {
+      "number": "lec05",
+      "title": "ex04",
+      "start": 4.6000000000000005,
+      "end": 7.0,
+      "text": " Your support will help MIT OpenCourseWare"
+    },
+    {
+      "number": "lec05",
+      "title": "ex04",
+      "start": 7.0,
+      "end": 11.24,
+      "text": " continue to offer high quality educational resources for free."
+    },
+    {
+      "number": "lec05",
+      "title": "ex04",
+      "start": 11.24,
+      "end": 14.0,
+      "text": " To make a donation or view additional materials"
+    },
+    {
+      "number": "lec05",
+      "title": "ex04",
+      "start": 14.0,
+      "end": 17.92,
+      "text": " from hundreds of MIT courses, visit MIT OpenCourseWare"
+    },
+    {
+      "number": "lec05",
+      "title": "ex04",
+      "start": 17.92,
+      "end": 18.92,
+      "text": " at ocw.mit.edu."
+    },
+    {
+      "number": "lec05",
+      "title": "ex04",
+      "start": 22.76,
+      "end": 23.64,
+      "text": " All right, so let's see."
+    },
+    {
+      "number": "lec05",
+      "title": "ex04",
+      "start": 23.64,
+      "end": 28.48,
+      "text": " So first we have L1 is equal to bacon, eggs."
+    },
+    {
+      "number": "lec05",
+      "title": "ex04",
+      "start": 28.48,
+      "end": 29.64,
+      "text": " I'm going to short for it."
+    },
+    {
+      "number": "lec05",
+      "title": "ex04",
+      "start": 29.64,
+      "end": 31.32,
+      "text": " I'm going to shorthand this."
+    },
+    {
+      "number": "lec05",
+      "title": "ex04",
+      "start": 31.32,
+      "end": 36.96,
+      "text": " L2 is equal to toast and jam."
+    },
+    {
+      "number": "lec05",
+      "title": "ex04",
+      "start": 36.96,
+      "end": 41.24,
+      "text": " Brunch, I should actually make these arrows."
+    },
+    {
+      "number": "lec05",
+      "title": "ex04",
+      "start": 41.24,
+      "end": 42.68,
+      "text": " Brunch is equal to L1."
+    },
+    {
+      "number": "lec05",
+      "title": "ex04",
+      "start": 42.68,
+      "end": 44.400000000000006,
+      "text": " So this is just aliasing, which means"
+    },
+    {
+      "number": "lec05",
+      "title": "ex04",
+      "start": 44.400000000000006,
+      "end": 49.44,
+      "text": " brunch is going to point to whatever L1 object points to."
+    },
+    {
+      "number": "lec05",
+      "title": "ex04",
+      "start": 49.96,
+      "end": 56.08,
+      "text": " And if I do L1.appendJuice, L1 is now going to be bacon,"
+    },
+    {
+      "number": "lec05",
+      "title": "ex04",
+      "start": 56.08,
+      "end": 58.12,
+      "text": " eggs, and juice."
+    },
+    {
+      "number": "lec05",
+      "title": "ex04",
+      "start": 61.76,
+      "end": 64.32,
+      "text": " This L1 has been mutated to be that."
+    },
+    {
+      "number": "lec05",
+      "title": "ex04",
+      "start": 64.32,
+      "end": 67.44,
+      "text": " And since brunch still points to the same object that L1 points"
+    },
+    {
+      "number": "lec05",
+      "title": "ex04",
+      "start": 67.44,
+      "end": 69.72,
+      "text": " to, brunch is now going to point to there."
+    },
+    {
+      "number": "lec05",
+      "title": "ex04",
+      "start": 73.08,
+      "end": 76.72,
+      "text": " So when I do brunch.extendL2, I'm going to take whatever"
+    },
+    {
+      "number": "lec05",
+      "title": "ex04",
+      "start": 76.72,
+      "end": 80.64,
+      "text": " brunch is, which is this part here."
+    },
+    {
+      "number": "lec05",
+      "title": "ex04",
+      "start": 80.64,
+      "end": 89.64,
+      "text": " And I'm going to extend it by L2, which is toast and jam."
+    },
+    {
+      "number": "lec05",
+      "title": "ex04",
+      "start": 89.64,
+      "end": 92.6,
+      "text": " So it's just going to contain a large list of those five"
+    },
+    {
+      "number": "lec05",
+      "title": "ex04",
+      "start": 92.6,
+      "end": 99.2,
+      "text": " elements because of this side effect issue, where brunch was"
+    },
+    {
+      "number": "lec05",
+      "title": "ex04",
+      "start": 99.2,
+      "end": 101.4,
+      "text": " pointing to the same thing that L1 was pointing to."
+    },
+    {
+      "number": "lec05",
+      "title": "ex04",
+      "start": 107.16,
+      "end": 109.08,
+      "text": " So it's close."
+    },
+    {
+      "number": "lec05",
+      "title": "ex04",
+      "start": 109.08,
+      "end": 111.36,
+      "text": " But I think perfect."
+    },
+    {
+      "number": "lec05",
+      "title": "ex04",
+      "start": 111.36,
+      "end": 111.96,
+      "text": " Yes."
+    },
+    {
+      "number": "lec05",
+      "title": "ex04",
+      "start": 111.96,
+      "end": 113.24,
+      "text": " That's the right answer."
+    }
+  ]
+}

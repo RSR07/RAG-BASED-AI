@@ -1,0 +1,231 @@
+{
+  "number": "lec01",
+  "title": "ex03",
+  "text": " The following content is provided under a Creative Commons license. Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free. To make a donation or view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu. So for this last class exercise, we have this following code. So we have 46 for USA Gold, for 27 for UK Gold, one for Romania Gold. We make this variable here total gold to be the sum of those three, which I believe is 74. Then we're going to print total gold. Then we're going to increase the value for Romania Gold, and we're going to print it again. So as always, you can just copy this, pop it into Python, and run it to test yourself. But you should do it just in your mind first. So notice it prints 74 and 74. And that's because we never told the program to calculate the new total. So we only calculated the total way up here, on line 5. If we calculated the total again down here, then it would be 74, 75. So let's look at the answers. Hopefully you guys got that. Perfect. Majority are good to go. If you didn't get that, please try to review it. Review why it didn't work. OK.",
+  "chunks": [
+    {
+      "number": "lec01",
+      "title": "ex03",
+      "start": 0.0,
+      "end": 3.16,
+      "text": " The following content is provided under a Creative"
+    },
+    {
+      "number": "lec01",
+      "title": "ex03",
+      "start": 3.16,
+      "end": 4.6000000000000005,
+      "text": " Commons license."
+    },
+    {
+      "number": "lec01",
+      "title": "ex03",
+      "start": 4.6000000000000005,
+      "end": 7.0,
+      "text": " Your support will help MIT OpenCourseWare"
+    },
+    {
+      "number": "lec01",
+      "title": "ex03",
+      "start": 7.0,
+      "end": 11.24,
+      "text": " continue to offer high quality educational resources for free."
+    },
+    {
+      "number": "lec01",
+      "title": "ex03",
+      "start": 11.24,
+      "end": 14.0,
+      "text": " To make a donation or view additional materials"
+    },
+    {
+      "number": "lec01",
+      "title": "ex03",
+      "start": 14.0,
+      "end": 17.92,
+      "text": " from hundreds of MIT courses, visit MIT OpenCourseWare"
+    },
+    {
+      "number": "lec01",
+      "title": "ex03",
+      "start": 17.92,
+      "end": 18.76,
+      "text": " at ocw.mit.edu."
+    },
+    {
+      "number": "lec01",
+      "title": "ex03",
+      "start": 23.04,
+      "end": 28.080000000000002,
+      "text": " So for this last class exercise, we"
+    },
+    {
+      "number": "lec01",
+      "title": "ex03",
+      "start": 28.08,
+      "end": 30.799999999999997,
+      "text": " have this following code."
+    },
+    {
+      "number": "lec01",
+      "title": "ex03",
+      "start": 30.799999999999997,
+      "end": 35.76,
+      "text": " So we have 46 for USA Gold, for 27 for UK Gold,"
+    },
+    {
+      "number": "lec01",
+      "title": "ex03",
+      "start": 35.76,
+      "end": 38.12,
+      "text": " one for Romania Gold."
+    },
+    {
+      "number": "lec01",
+      "title": "ex03",
+      "start": 38.12,
+      "end": 41.8,
+      "text": " We make this variable here total gold"
+    },
+    {
+      "number": "lec01",
+      "title": "ex03",
+      "start": 41.8,
+      "end": 46.04,
+      "text": " to be the sum of those three, which I believe is 74."
+    },
+    {
+      "number": "lec01",
+      "title": "ex03",
+      "start": 46.04,
+      "end": 49.44,
+      "text": " Then we're going to print total gold."
+    },
+    {
+      "number": "lec01",
+      "title": "ex03",
+      "start": 49.44,
+      "end": 51.32,
+      "text": " Then we're going to increase the value for Romania Gold,"
+    },
+    {
+      "number": "lec01",
+      "title": "ex03",
+      "start": 51.32,
+      "end": 53.2,
+      "text": " and we're going to print it again."
+    },
+    {
+      "number": "lec01",
+      "title": "ex03",
+      "start": 53.2,
+      "end": 58.04,
+      "text": " So as always, you can just copy this, pop it into Python,"
+    },
+    {
+      "number": "lec01",
+      "title": "ex03",
+      "start": 58.28,
+      "end": 59.64,
+      "text": " and run it to test yourself."
+    },
+    {
+      "number": "lec01",
+      "title": "ex03",
+      "start": 59.64,
+      "end": 63.519999999999996,
+      "text": " But you should do it just in your mind first."
+    },
+    {
+      "number": "lec01",
+      "title": "ex03",
+      "start": 63.519999999999996,
+      "end": 66.28,
+      "text": " So notice it prints 74 and 74."
+    },
+    {
+      "number": "lec01",
+      "title": "ex03",
+      "start": 66.28,
+      "end": 68.44,
+      "text": " And that's because we never told the program"
+    },
+    {
+      "number": "lec01",
+      "title": "ex03",
+      "start": 68.44,
+      "end": 72.32,
+      "text": " to calculate the new total."
+    },
+    {
+      "number": "lec01",
+      "title": "ex03",
+      "start": 72.32,
+      "end": 77.88,
+      "text": " So we only calculated the total way up here, on line 5."
+    },
+    {
+      "number": "lec01",
+      "title": "ex03",
+      "start": 77.88,
+      "end": 82.6,
+      "text": " If we calculated the total again down here,"
+    },
+    {
+      "number": "lec01",
+      "title": "ex03",
+      "start": 82.6,
+      "end": 86.32,
+      "text": " then it would be 74, 75."
+    },
+    {
+      "number": "lec01",
+      "title": "ex03",
+      "start": 86.36,
+      "end": 88.32,
+      "text": " So let's look at the answers."
+    },
+    {
+      "number": "lec01",
+      "title": "ex03",
+      "start": 88.32,
+      "end": 91.32,
+      "text": " Hopefully you guys got that."
+    },
+    {
+      "number": "lec01",
+      "title": "ex03",
+      "start": 91.32,
+      "end": 92.39999999999999,
+      "text": " Perfect."
+    },
+    {
+      "number": "lec01",
+      "title": "ex03",
+      "start": 92.39999999999999,
+      "end": 94.08,
+      "text": " Majority are good to go."
+    },
+    {
+      "number": "lec01",
+      "title": "ex03",
+      "start": 94.08,
+      "end": 97.32,
+      "text": " If you didn't get that, please try to review it."
+    },
+    {
+      "number": "lec01",
+      "title": "ex03",
+      "start": 97.32,
+      "end": 98.63999999999999,
+      "text": " Review why it didn't work."
+    },
+    {
+      "number": "lec01",
+      "title": "ex03",
+      "start": 98.63999999999999,
+      "end": 100.16,
+      "text": " OK."
+    }
+  ]
+}

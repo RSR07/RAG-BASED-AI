@@ -1,0 +1,182 @@
+{
+  "number": "lec02",
+  "title": "ex02",
+  "text": " The following content is provided under a Creative Commons license. Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free. To make a donation or view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu. So I'm creating a variable called piece at time, and I'm assigning it to be the value 15. I'm creating a variable named sleep time. I'm assigning it to be the value 8. I'm going to print the value of this expression here. And the expression is a conditional that says, is sleep time greater than piece at time? So in Python, you're just going to replace these values, these variables with their values. So it's 8 greater than 15, and that's false. So perfect. And then one operation on Booleans, derive is true. Drink is false. I'm using the and operator to figure out if I should drink and derive. And I'm going to print out false. So perfect, people are getting it. Great job, guys.",
+  "chunks": [
+    {
+      "number": "lec02",
+      "title": "ex02",
+      "start": 0.0,
+      "end": 3.16,
+      "text": " The following content is provided under a Creative"
+    },
+    {
+      "number": "lec02",
+      "title": "ex02",
+      "start": 3.16,
+      "end": 4.6000000000000005,
+      "text": " Commons license."
+    },
+    {
+      "number": "lec02",
+      "title": "ex02",
+      "start": 4.6000000000000005,
+      "end": 7.0,
+      "text": " Your support will help MIT OpenCourseWare"
+    },
+    {
+      "number": "lec02",
+      "title": "ex02",
+      "start": 7.0,
+      "end": 11.24,
+      "text": " continue to offer high quality educational resources for free."
+    },
+    {
+      "number": "lec02",
+      "title": "ex02",
+      "start": 11.24,
+      "end": 14.0,
+      "text": " To make a donation or view additional materials"
+    },
+    {
+      "number": "lec02",
+      "title": "ex02",
+      "start": 14.0,
+      "end": 17.92,
+      "text": " from hundreds of MIT courses, visit MIT OpenCourseWare"
+    },
+    {
+      "number": "lec02",
+      "title": "ex02",
+      "start": 17.92,
+      "end": 18.92,
+      "text": " at ocw.mit.edu."
+    },
+    {
+      "number": "lec02",
+      "title": "ex02",
+      "start": 22.68,
+      "end": 27.32,
+      "text": " So I'm creating a variable called piece at time,"
+    },
+    {
+      "number": "lec02",
+      "title": "ex02",
+      "start": 27.32,
+      "end": 30.32,
+      "text": " and I'm assigning it to be the value 15."
+    },
+    {
+      "number": "lec02",
+      "title": "ex02",
+      "start": 30.32,
+      "end": 32.56,
+      "text": " I'm creating a variable named sleep time."
+    },
+    {
+      "number": "lec02",
+      "title": "ex02",
+      "start": 32.56,
+      "end": 36.72,
+      "text": " I'm assigning it to be the value 8."
+    },
+    {
+      "number": "lec02",
+      "title": "ex02",
+      "start": 36.72,
+      "end": 42.08,
+      "text": " I'm going to print the value of this expression here."
+    },
+    {
+      "number": "lec02",
+      "title": "ex02",
+      "start": 42.08,
+      "end": 44.64,
+      "text": " And the expression is a conditional that says,"
+    },
+    {
+      "number": "lec02",
+      "title": "ex02",
+      "start": 44.64,
+      "end": 47.2,
+      "text": " is sleep time greater than piece at time?"
+    },
+    {
+      "number": "lec02",
+      "title": "ex02",
+      "start": 47.2,
+      "end": 49.760000000000005,
+      "text": " So in Python, you're just going to replace these values,"
+    },
+    {
+      "number": "lec02",
+      "title": "ex02",
+      "start": 49.760000000000005,
+      "end": 52.0,
+      "text": " these variables with their values."
+    },
+    {
+      "number": "lec02",
+      "title": "ex02",
+      "start": 52.0,
+      "end": 56.519999999999996,
+      "text": " So it's 8 greater than 15, and that's false."
+    },
+    {
+      "number": "lec02",
+      "title": "ex02",
+      "start": 56.52,
+      "end": 59.36,
+      "text": " So perfect."
+    },
+    {
+      "number": "lec02",
+      "title": "ex02",
+      "start": 59.36,
+      "end": 65.32000000000001,
+      "text": " And then one operation on Booleans, derive is true."
+    },
+    {
+      "number": "lec02",
+      "title": "ex02",
+      "start": 65.32000000000001,
+      "end": 66.76,
+      "text": " Drink is false."
+    },
+    {
+      "number": "lec02",
+      "title": "ex02",
+      "start": 66.76,
+      "end": 69.84,
+      "text": " I'm using the and operator to figure out"
+    },
+    {
+      "number": "lec02",
+      "title": "ex02",
+      "start": 69.84,
+      "end": 73.36,
+      "text": " if I should drink and derive."
+    },
+    {
+      "number": "lec02",
+      "title": "ex02",
+      "start": 73.36,
+      "end": 77.44,
+      "text": " And I'm going to print out false."
+    },
+    {
+      "number": "lec02",
+      "title": "ex02",
+      "start": 77.44,
+      "end": 80.04,
+      "text": " So perfect, people are getting it."
+    },
+    {
+      "number": "lec02",
+      "title": "ex02",
+      "start": 80.04,
+      "end": 80.80000000000001,
+      "text": " Great job, guys."
+    }
+  ]
+}

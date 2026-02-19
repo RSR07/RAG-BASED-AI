@@ -1,0 +1,476 @@
+{
+  "number": "lec03",
+  "title": "ex02",
+  "text": " The following content is provided under a Creative Commons license. Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free. To make a donation or view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu. We have two strings, S1, S2. First, we're going to check if the length of S1 is equal to length 2. Anyone really quickly can you tell me what is the length of S1 and S2? How many characters are in there? Ten, right? Because we're including spaces. So 1, 2, 3, 4, 5, 6, 7, 8, 9, 10. So they are equal, first of all. So we're going to go inside this if statement. Then we're going to go for every character in S1. And then we're going to have a nested loop. For every character in S2, we're going to check if the two characters are the same. And if they are, we're going to print this common letter statement. And then we're going to break. Okay, great. We have some good competition here. So let's see. The outer for loop is first going to go through the letter M. So first it's going to look at M, right? 4 char in S1. The first character in S1 is an M. Then we're entering inside this other for loop. 4 char 2 in S2. So we're going to say for this M, we're going to look at I, which is the first character in S2. If the character 1 is equal to character 2, they're not, don't do anything, keep going to the next character in S2. So you don't do anything there. The next character in S2 is a space. M does not equal a space. So you don't do anything. R does not, the next character is an r. Don't do anything. The next character is u doesn't do anything. Then an L doesn't do anything, then an E doesn't do anything. And then suddenly we get to an m. So we're still in the outer for loop, we're still looking at m. And we're comparing m with every other letter inside the s2. And suddenly we reach here where we're comparing m with an m. And we say, yes, they are equal. So we're going to print out something. Make that a better check. We're going to print common letter, and then we're going to break. This break says, do not keep looking at the remaining letters in s2. So once we've found one that fits, once we've found one that matches, stop right here, break, and print out the thing, and then go on to looking at i, which is the next letter in s1. And you do the same thing. Compare i with i. We have a match. Perfect, right off the bat. So you print out another common letter, and then you break, which means don't keep looking at the remaining letters. And then you look at, since you broke out of the inner loop, you go to the outer loop. The next letter is a t, and so on, and so on. So essentially you're comparing every letter out here in s1 with every single letter in s2 until you find one that matches. As soon as you do, you exit. So if you actually run this program, it's going to print out seven times, I think. We can check it. One, two, three, four, five, six, seven times. Nice, the majority of the people are right. If you got this wrong, please go back and try to trace through your program. So that means step by step, try to figure out what values of variables are. Just to make sure that you're on the right track, and you understand exactly what's happening.",
+  "chunks": [
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 0.0,
+      "end": 4.0,
+      "text": " The following content is provided under a Creative Commons license."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 4.0,
+      "end": 11.0,
+      "text": " Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 11.0,
+      "end": 23.0,
+      "text": " To make a donation or view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 23.0,
+      "end": 29.0,
+      "text": " We have two strings, S1, S2."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 29.0,
+      "end": 34.0,
+      "text": " First, we're going to check if the length of S1 is equal to length 2."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 34.0,
+      "end": 40.0,
+      "text": " Anyone really quickly can you tell me what is the length of S1 and S2?"
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 40.0,
+      "end": 46.0,
+      "text": " How many characters are in there?"
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 46.0,
+      "end": 52.0,
+      "text": " Ten, right? Because we're including spaces. So 1, 2, 3, 4, 5, 6, 7, 8, 9, 10."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 52.0,
+      "end": 56.0,
+      "text": " So they are equal, first of all. So we're going to go inside this if statement."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 56.0,
+      "end": 60.0,
+      "text": " Then we're going to go for every character in S1."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 60.0,
+      "end": 63.0,
+      "text": " And then we're going to have a nested loop."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 63.0,
+      "end": 67.0,
+      "text": " For every character in S2, we're going to check if the two characters are the same."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 67.0,
+      "end": 70.0,
+      "text": " And if they are, we're going to print this common letter statement."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 70.0,
+      "end": 73.0,
+      "text": " And then we're going to break."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 73.0,
+      "end": 76.0,
+      "text": " Okay, great. We have some good competition here."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 76.0,
+      "end": 81.0,
+      "text": " So let's see."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 81.0,
+      "end": 86.0,
+      "text": " The outer for loop is first going to go through the letter M."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 86.0,
+      "end": 93.0,
+      "text": " So first it's going to look at M, right?"
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 93.0,
+      "end": 98.0,
+      "text": " 4 char in S1. The first character in S1 is an M."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 98.0,
+      "end": 102.0,
+      "text": " Then we're entering inside this other for loop. 4 char 2 in S2."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 102.0,
+      "end": 110.0,
+      "text": " So we're going to say for this M, we're going to look at I, which is the first character in S2."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 110.0,
+      "end": 115.0,
+      "text": " If the character 1 is equal to character 2, they're not, don't do anything,"
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 115.0,
+      "end": 118.0,
+      "text": " keep going to the next character in S2."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 118.0,
+      "end": 120.0,
+      "text": " So you don't do anything there."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 120.0,
+      "end": 125.0,
+      "text": " The next character in S2 is a space. M does not equal a space."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 125.0,
+      "end": 129.0,
+      "text": " So you don't do anything. R does not, the next character is an r."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 129.0,
+      "end": 133.0,
+      "text": " Don't do anything. The next character is u doesn't do anything."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 133.0,
+      "end": 136.0,
+      "text": " Then an L doesn't do anything, then an E doesn't do anything."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 136.0,
+      "end": 139.64,
+      "text": " And then suddenly we get to an m."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 139.64,
+      "end": 143.6,
+      "text": " So we're still in the outer for loop, we're still looking at m."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 143.6,
+      "end": 149.2,
+      "text": " And we're comparing m with every other letter inside the s2."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 149.2,
+      "end": 152.72,
+      "text": " And suddenly we reach here where we're comparing m with an m."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 152.72,
+      "end": 154.56,
+      "text": " And we say, yes, they are equal."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 154.56,
+      "end": 158.8,
+      "text": " So we're going to print out something."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 158.8,
+      "end": 161.84,
+      "text": " Make that a better check."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 161.84,
+      "end": 163.32,
+      "text": " We're going to print common letter,"
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 163.32,
+      "end": 165.64,
+      "text": " and then we're going to break."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 165.64,
+      "end": 170.39999999999998,
+      "text": " This break says, do not keep looking at the remaining letters"
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 170.39999999999998,
+      "end": 172.51999999999998,
+      "text": " in s2."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 172.51999999999998,
+      "end": 174.88,
+      "text": " So once we've found one that fits,"
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 174.88,
+      "end": 178.07999999999998,
+      "text": " once we've found one that matches, stop right here,"
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 178.07999999999998,
+      "end": 187.0,
+      "text": " break, and print out the thing, and then go on to looking at i,"
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 187.0,
+      "end": 189.11999999999998,
+      "text": " which is the next letter in s1."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 189.11999999999998,
+      "end": 190.04,
+      "text": " And you do the same thing."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 190.04,
+      "end": 192.04,
+      "text": " Compare i with i."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 192.04,
+      "end": 194.72,
+      "text": " We have a match."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 194.72,
+      "end": 196.48,
+      "text": " Perfect, right off the bat."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 196.48,
+      "end": 199.72,
+      "text": " So you print out another common letter,"
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 199.72,
+      "end": 203.0,
+      "text": " and then you break, which means don't keep looking"
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 203.0,
+      "end": 204.8,
+      "text": " at the remaining letters."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 204.8,
+      "end": 210.07999999999998,
+      "text": " And then you look at, since you broke out of the inner loop,"
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 210.07999999999998,
+      "end": 211.2,
+      "text": " you go to the outer loop."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 211.2,
+      "end": 214.52,
+      "text": " The next letter is a t, and so on, and so on."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 214.52,
+      "end": 218.2,
+      "text": " So essentially you're comparing every letter out here in s1"
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 218.2,
+      "end": 221.48,
+      "text": " with every single letter in s2 until you find one that matches."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 221.48,
+      "end": 223.48,
+      "text": " As soon as you do, you exit."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 223.51999999999998,
+      "end": 225.23999999999998,
+      "text": " So if you actually run this program,"
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 225.23999999999998,
+      "end": 230.12,
+      "text": " it's going to print out seven times, I think."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 230.12,
+      "end": 230.72,
+      "text": " We can check it."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 236.72,
+      "end": 239.67999999999998,
+      "text": " One, two, three, four, five, six, seven times."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 243.07999999999998,
+      "end": 245.39999999999998,
+      "text": " Nice, the majority of the people are right."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 245.39999999999998,
+      "end": 248.32,
+      "text": " If you got this wrong, please go back and try to trace through"
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 248.32,
+      "end": 248.83999999999997,
+      "text": " your program."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 248.83999999999997,
+      "end": 250.83999999999997,
+      "text": " So that means step by step, try to figure out"
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 250.83999999999997,
+      "end": 252.6,
+      "text": " what values of variables are."
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 252.64,
+      "end": 254.84,
+      "text": " Just to make sure that you're on the right track,"
+    },
+    {
+      "number": "lec03",
+      "title": "ex02",
+      "start": 254.84,
+      "end": 256.68,
+      "text": " and you understand exactly what's happening."
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "number": "lec01",
+  "title": "ex02",
+  "text": " The following content is provided under a Creative Commons license. Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free. To make a donation or view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu. So this next exercise is which of the following is allowed in Python? So x plus y is equal to 2. And again, these are all things that you can just type into anaconda, which is our IDE for the class, and see whether it works or not. So this, the first one is probably not right. Let's increase it a little bit. It's not right because the left side needs to be a variable. This is not right because it's an expression. This is not right because 2 is not a proper variable name. And x, y, that one's actually going to be OK. Because it's not multiplication, it's just the variable x, y. So 50% said x, y is equal to 2. And that's right. So none of these. Yeah. So just to make sure that you guys understand, x, y, this last one here is the right one because x, y is not x times y, like in math. It's just one variable name that has two characters x and y.",
+  "chunks": [
+    {
+      "number": "lec01",
+      "title": "ex02",
+      "start": 0.0,
+      "end": 3.12,
+      "text": " The following content is provided under a Creative"
+    },
+    {
+      "number": "lec01",
+      "title": "ex02",
+      "start": 3.12,
+      "end": 4.5600000000000005,
+      "text": " Commons license."
+    },
+    {
+      "number": "lec01",
+      "title": "ex02",
+      "start": 4.5600000000000005,
+      "end": 7.6000000000000005,
+      "text": " Your support will help MIT OpenCourseWare continue to"
+    },
+    {
+      "number": "lec01",
+      "title": "ex02",
+      "start": 7.6000000000000005,
+      "end": 11.24,
+      "text": " offer high quality educational resources for free."
+    },
+    {
+      "number": "lec01",
+      "title": "ex02",
+      "start": 11.24,
+      "end": 14.16,
+      "text": " To make a donation or view additional materials from"
+    },
+    {
+      "number": "lec01",
+      "title": "ex02",
+      "start": 14.16,
+      "end": 18.04,
+      "text": " hundreds of MIT courses, visit MIT OpenCourseWare at"
+    },
+    {
+      "number": "lec01",
+      "title": "ex02",
+      "start": 18.04,
+      "end": 19.32,
+      "text": " ocw.mit.edu."
+    },
+    {
+      "number": "lec01",
+      "title": "ex02",
+      "start": 22.76,
+      "end": 25.8,
+      "text": " So this next exercise is which of the following is allowed"
+    },
+    {
+      "number": "lec01",
+      "title": "ex02",
+      "start": 25.8,
+      "end": 28.16,
+      "text": " in Python?"
+    },
+    {
+      "number": "lec01",
+      "title": "ex02",
+      "start": 28.16,
+      "end": 30.64,
+      "text": " So x plus y is equal to 2."
+    },
+    {
+      "number": "lec01",
+      "title": "ex02",
+      "start": 30.64,
+      "end": 33.12,
+      "text": " And again, these are all things that you can just type"
+    },
+    {
+      "number": "lec01",
+      "title": "ex02",
+      "start": 33.12,
+      "end": 37.36,
+      "text": " into anaconda, which is our IDE for the class, and see"
+    },
+    {
+      "number": "lec01",
+      "title": "ex02",
+      "start": 37.36,
+      "end": 40.44,
+      "text": " whether it works or not."
+    },
+    {
+      "number": "lec01",
+      "title": "ex02",
+      "start": 40.44,
+      "end": 45.2,
+      "text": " So this, the first one is probably not right."
+    },
+    {
+      "number": "lec01",
+      "title": "ex02",
+      "start": 45.2,
+      "end": 48.04,
+      "text": " Let's increase it a little bit."
+    },
+    {
+      "number": "lec01",
+      "title": "ex02",
+      "start": 48.04,
+      "end": 50.64,
+      "text": " It's not right because the left side needs to be a variable."
+    },
+    {
+      "number": "lec01",
+      "title": "ex02",
+      "start": 50.64,
+      "end": 53.0,
+      "text": " This is not right because it's an expression."
+    },
+    {
+      "number": "lec01",
+      "title": "ex02",
+      "start": 53.0,
+      "end": 57.44,
+      "text": " This is not right because 2 is not a proper variable name."
+    },
+    {
+      "number": "lec01",
+      "title": "ex02",
+      "start": 57.44,
+      "end": 61.04,
+      "text": " And x, y, that one's actually going to be OK."
+    },
+    {
+      "number": "lec01",
+      "title": "ex02",
+      "start": 61.04,
+      "end": 65.88,
+      "text": " Because it's not multiplication, it's just the variable x, y."
+    },
+    {
+      "number": "lec01",
+      "title": "ex02",
+      "start": 65.88,
+      "end": 71.44,
+      "text": " So 50% said x, y is equal to 2."
+    },
+    {
+      "number": "lec01",
+      "title": "ex02",
+      "start": 71.44,
+      "end": 74.08,
+      "text": " And that's right."
+    },
+    {
+      "number": "lec01",
+      "title": "ex02",
+      "start": 74.08,
+      "end": 75.6,
+      "text": " So none of these."
+    },
+    {
+      "number": "lec01",
+      "title": "ex02",
+      "start": 75.6,
+      "end": 77.56,
+      "text": " Yeah."
+    },
+    {
+      "number": "lec01",
+      "title": "ex02",
+      "start": 77.56,
+      "end": 85.28,
+      "text": " So just to make sure that you guys understand, x, y, this"
+    },
+    {
+      "number": "lec01",
+      "title": "ex02",
+      "start": 85.28,
+      "end": 89.6,
+      "text": " last one here is the right one because x, y is not x times y,"
+    },
+    {
+      "number": "lec01",
+      "title": "ex02",
+      "start": 89.6,
+      "end": 90.16,
+      "text": " like in math."
+    },
+    {
+      "number": "lec01",
+      "title": "ex02",
+      "start": 90.16,
+      "end": 94.12,
+      "text": " It's just one variable name that has two characters x and y."
+    }
+  ]
+}

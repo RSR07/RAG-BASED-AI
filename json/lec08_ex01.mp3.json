@@ -1,0 +1,126 @@
+{
+  "number": "lec08",
+  "title": "ex01",
+  "text": " The following content is provided under a Creative Commons license. Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free. To make a donation or view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu. So which of the following is a good and valid definition for class representing a car? Most of the people I think have gotten it, which is the red, which says class car object. That's perfect. So this defines a function. This defines a class correctly, but A is just not descriptive name at all. And this is kind of weird. And this is the right one here.",
+  "chunks": [
+    {
+      "number": "lec08",
+      "title": "ex01",
+      "start": 0.0,
+      "end": 3.16,
+      "text": " The following content is provided under a Creative"
+    },
+    {
+      "number": "lec08",
+      "title": "ex01",
+      "start": 3.16,
+      "end": 4.6000000000000005,
+      "text": " Commons license."
+    },
+    {
+      "number": "lec08",
+      "title": "ex01",
+      "start": 4.6000000000000005,
+      "end": 7.0,
+      "text": " Your support will help MIT OpenCourseWare"
+    },
+    {
+      "number": "lec08",
+      "title": "ex01",
+      "start": 7.0,
+      "end": 11.24,
+      "text": " continue to offer high quality educational resources for free."
+    },
+    {
+      "number": "lec08",
+      "title": "ex01",
+      "start": 11.24,
+      "end": 14.0,
+      "text": " To make a donation or view additional materials"
+    },
+    {
+      "number": "lec08",
+      "title": "ex01",
+      "start": 14.0,
+      "end": 17.92,
+      "text": " from hundreds of MIT courses, visit MIT OpenCourseWare"
+    },
+    {
+      "number": "lec08",
+      "title": "ex01",
+      "start": 17.92,
+      "end": 18.92,
+      "text": " at ocw.mit.edu."
+    },
+    {
+      "number": "lec08",
+      "title": "ex01",
+      "start": 22.92,
+      "end": 26.84,
+      "text": " So which of the following is a good and valid definition"
+    },
+    {
+      "number": "lec08",
+      "title": "ex01",
+      "start": 26.84,
+      "end": 29.0,
+      "text": " for class representing a car?"
+    },
+    {
+      "number": "lec08",
+      "title": "ex01",
+      "start": 29.0,
+      "end": 33.04,
+      "text": " Most of the people I think have gotten it, which is the red,"
+    },
+    {
+      "number": "lec08",
+      "title": "ex01",
+      "start": 33.04,
+      "end": 35.68,
+      "text": " which says class car object."
+    },
+    {
+      "number": "lec08",
+      "title": "ex01",
+      "start": 35.68,
+      "end": 37.96,
+      "text": " That's perfect."
+    },
+    {
+      "number": "lec08",
+      "title": "ex01",
+      "start": 37.96,
+      "end": 39.72,
+      "text": " So this defines a function."
+    },
+    {
+      "number": "lec08",
+      "title": "ex01",
+      "start": 39.72,
+      "end": 43.44,
+      "text": " This defines a class correctly, but A is just not"
+    },
+    {
+      "number": "lec08",
+      "title": "ex01",
+      "start": 43.44,
+      "end": 45.120000000000005,
+      "text": " descriptive name at all."
+    },
+    {
+      "number": "lec08",
+      "title": "ex01",
+      "start": 45.120000000000005,
+      "end": 46.56,
+      "text": " And this is kind of weird."
+    },
+    {
+      "number": "lec08",
+      "title": "ex01",
+      "start": 46.56,
+      "end": 47.760000000000005,
+      "text": " And this is the right one here."
+    }
+  ]
+}

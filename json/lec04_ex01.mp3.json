@@ -1,0 +1,357 @@
+{
+  "number": "lec04",
+  "title": "ex01",
+  "text": " The following content is provided under a Creative Commons license. Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free. To make a donation or view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu. I have two functions here. One is add and one is multiply. The add function returns the sum of x plus y. And the multiply function just prints the value of x times y. What doesn't return the value? Instead, it's going to implicitly return none, because we don't have any return statement inside the mult. So there are four lines here. And the question was how many total lines of output will show up if you run the code? So how many lines in the console show up? So when I do first add one, two, it's going to go inside this function here. And it says x is one, y is two, and return three. So I'm replacing this line with three. But notice I'm never printing it out. So this line of code will not print out anything. Instead, if I do so in addition, so the next line is if I print add two plus three, then I'm going to get five. And I'm going to print that out. So that's one thing I'm printing out. Next line says multiply three and four. So I'm going to go inside my mult function and say x is three, y is four. So I'm going to print 12. Three times four is 12. So that's another thing that gets printed out. And I'm not doing anything with the output or the sorry, I'm not doing anything with the return from mult. So that line is done. And the last one is the trickiest. And it says print mult four and five. So first I'm going to go in here, x is four, y is five, and I'm printing 20. So that's another print. And the return of this function is going to be none. Right? And the main thing here is I'm going to print the return of this function. So I'm also going to print out none. So that's another one. So in total, I'm going to have four different things printed out, the last one being this none.",
+  "chunks": [
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 0.0,
+      "end": 3.16,
+      "text": " The following content is provided under a Creative"
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 3.16,
+      "end": 4.6000000000000005,
+      "text": " Commons license."
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 4.6000000000000005,
+      "end": 7.0,
+      "text": " Your support will help MIT OpenCourseWare"
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 7.0,
+      "end": 11.24,
+      "text": " continue to offer high quality educational resources for free."
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 11.24,
+      "end": 14.0,
+      "text": " To make a donation or view additional materials"
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 14.0,
+      "end": 17.92,
+      "text": " from hundreds of MIT courses, visit MIT OpenCourseWare"
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 17.92,
+      "end": 18.76,
+      "text": " at ocw.mit.edu."
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 24.92,
+      "end": 26.88,
+      "text": " I have two functions here."
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 26.88,
+      "end": 30.119999999999997,
+      "text": " One is add and one is multiply."
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 30.119999999999997,
+      "end": 34.64,
+      "text": " The add function returns the sum of x plus y."
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 34.64,
+      "end": 39.92,
+      "text": " And the multiply function just prints the value of x times y."
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 39.92,
+      "end": 42.28,
+      "text": " What doesn't return the value?"
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 42.28,
+      "end": 45.519999999999996,
+      "text": " Instead, it's going to implicitly return none,"
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 45.519999999999996,
+      "end": 50.64,
+      "text": " because we don't have any return statement inside the mult."
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 50.64,
+      "end": 53.0,
+      "text": " So there are four lines here."
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 53.0,
+      "end": 55.239999999999995,
+      "text": " And the question was how many total lines of output"
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 55.24,
+      "end": 58.28,
+      "text": " will show up if you run the code?"
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 58.28,
+      "end": 62.56,
+      "text": " So how many lines in the console show up?"
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 62.56,
+      "end": 64.88,
+      "text": " So when I do first add one, two, it's"
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 64.88,
+      "end": 66.48,
+      "text": " going to go inside this function here."
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 66.48,
+      "end": 71.92,
+      "text": " And it says x is one, y is two, and return three."
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 71.92,
+      "end": 73.84,
+      "text": " So I'm replacing this line with three."
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 73.84,
+      "end": 75.76,
+      "text": " But notice I'm never printing it out."
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 75.76,
+      "end": 79.96000000000001,
+      "text": " So this line of code will not print out anything."
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 79.96000000000001,
+      "end": 83.24000000000001,
+      "text": " Instead, if I do so in addition, so the next line"
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 83.28,
+      "end": 86.8,
+      "text": " is if I print add two plus three, then I'm going to get five."
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 86.8,
+      "end": 88.16,
+      "text": " And I'm going to print that out."
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 88.16,
+      "end": 93.36,
+      "text": " So that's one thing I'm printing out."
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 93.36,
+      "end": 95.96,
+      "text": " Next line says multiply three and four."
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 95.96,
+      "end": 97.8,
+      "text": " So I'm going to go inside my mult function"
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 97.8,
+      "end": 100.88,
+      "text": " and say x is three, y is four."
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 100.88,
+      "end": 102.24,
+      "text": " So I'm going to print 12."
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 102.24,
+      "end": 105.47999999999999,
+      "text": " Three times four is 12."
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 105.47999999999999,
+      "end": 107.11999999999999,
+      "text": " So that's another thing that gets printed out."
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 108.04,
+      "end": 112.80000000000001,
+      "text": " And I'm not doing anything with the output or the sorry,"
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 112.80000000000001,
+      "end": 115.08,
+      "text": " I'm not doing anything with the return from mult."
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 115.08,
+      "end": 118.04,
+      "text": " So that line is done."
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 118.04,
+      "end": 120.28,
+      "text": " And the last one is the trickiest."
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 120.28,
+      "end": 123.48,
+      "text": " And it says print mult four and five."
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 123.48,
+      "end": 126.32000000000001,
+      "text": " So first I'm going to go in here, x is four, y is five,"
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 126.32000000000001,
+      "end": 127.76,
+      "text": " and I'm printing 20."
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 127.76,
+      "end": 128.52,
+      "text": " So that's another print."
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 131.44,
+      "end": 134.04000000000002,
+      "text": " And the return of this function is going to be none."
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 134.04000000000002,
+      "end": 134.54000000000002,
+      "text": " Right?"
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 135.17999999999998,
+      "end": 137.14,
+      "text": " And the main thing here is I'm going"
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 137.14,
+      "end": 138.98,
+      "text": " to print the return of this function."
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 138.98,
+      "end": 141.14,
+      "text": " So I'm also going to print out none."
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 141.14,
+      "end": 143.98,
+      "text": " So that's another one."
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 143.98,
+      "end": 146.7,
+      "text": " So in total, I'm going to have four different things printed"
+    },
+    {
+      "number": "lec04",
+      "title": "ex01",
+      "start": 146.7,
+      "end": 148.66,
+      "text": " out, the last one being this none."
+    }
+  ]
+}

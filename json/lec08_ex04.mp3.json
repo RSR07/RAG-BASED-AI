@@ -1,0 +1,126 @@
+{
+  "number": "lec08",
+  "title": "ex04",
+  "text": " The following content is provided under a Creative Commons license. Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free. To make a donation or view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu. This is my definition, including the method to paint the car, so to change its color. And the question says you create a car with this line here, so you're initializing it with 4, 2. What's a line of code that changes the color from whatever it initially is to red? The first one, car.paintRed, is sort of attempting to do the way that we saw on the right in the slides, where you're calling the class name dot. But it's missing the self, so we don't know what object to call it on. So that one's out of the running. The second one is closer, but we have red here as a variable as opposed to a string. So that one's not going to work. The third one looks good, and the fourth one is just weird. I don't think that one will work. It's attempting to put a value for self, but you've already called myCar dot instead of the class name dot. So here, this isn't going to work. So since you already called the object name dot method name, you just have to give it the other parameter that it needs, which is the color. I think the majority have gotten it right.",
+  "chunks": [
+    {
+      "number": "lec08",
+      "title": "ex04",
+      "start": 0.0,
+      "end": 4.0,
+      "text": " The following content is provided under a Creative Commons license."
+    },
+    {
+      "number": "lec08",
+      "title": "ex04",
+      "start": 4.0,
+      "end": 11.0,
+      "text": " Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free."
+    },
+    {
+      "number": "lec08",
+      "title": "ex04",
+      "start": 11.0,
+      "end": 23.0,
+      "text": " To make a donation or view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu."
+    },
+    {
+      "number": "lec08",
+      "title": "ex04",
+      "start": 23.0,
+      "end": 31.0,
+      "text": " This is my definition, including the method to paint the car, so to change its color."
+    },
+    {
+      "number": "lec08",
+      "title": "ex04",
+      "start": 31.0,
+      "end": 37.0,
+      "text": " And the question says you create a car with this line here, so you're initializing it with 4, 2."
+    },
+    {
+      "number": "lec08",
+      "title": "ex04",
+      "start": 37.0,
+      "end": 44.0,
+      "text": " What's a line of code that changes the color from whatever it initially is to red?"
+    },
+    {
+      "number": "lec08",
+      "title": "ex04",
+      "start": 44.0,
+      "end": 53.0,
+      "text": " The first one, car.paintRed, is sort of attempting to do the way that we saw on the right in the slides, where you're calling the class name dot."
+    },
+    {
+      "number": "lec08",
+      "title": "ex04",
+      "start": 53.0,
+      "end": 57.0,
+      "text": " But it's missing the self, so we don't know what object to call it on."
+    },
+    {
+      "number": "lec08",
+      "title": "ex04",
+      "start": 57.0,
+      "end": 59.0,
+      "text": " So that one's out of the running."
+    },
+    {
+      "number": "lec08",
+      "title": "ex04",
+      "start": 59.0,
+      "end": 66.0,
+      "text": " The second one is closer, but we have red here as a variable as opposed to a string."
+    },
+    {
+      "number": "lec08",
+      "title": "ex04",
+      "start": 66.0,
+      "end": 68.0,
+      "text": " So that one's not going to work."
+    },
+    {
+      "number": "lec08",
+      "title": "ex04",
+      "start": 69.0,
+      "end": 74.0,
+      "text": " The third one looks good, and the fourth one is just weird."
+    },
+    {
+      "number": "lec08",
+      "title": "ex04",
+      "start": 74.0,
+      "end": 76.0,
+      "text": " I don't think that one will work."
+    },
+    {
+      "number": "lec08",
+      "title": "ex04",
+      "start": 76.0,
+      "end": 86.0,
+      "text": " It's attempting to put a value for self, but you've already called myCar dot instead of the class name dot."
+    },
+    {
+      "number": "lec08",
+      "title": "ex04",
+      "start": 86.0,
+      "end": 90.0,
+      "text": " So here, this isn't going to work."
+    },
+    {
+      "number": "lec08",
+      "title": "ex04",
+      "start": 91.0,
+      "end": 102.0,
+      "text": " So since you already called the object name dot method name, you just have to give it the other parameter that it needs, which is the color."
+    },
+    {
+      "number": "lec08",
+      "title": "ex04",
+      "start": 102.0,
+      "end": 105.0,
+      "text": " I think the majority have gotten it right."
+    }
+  ]
+}

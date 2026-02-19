@@ -1,0 +1,4 @@
+[Video]
+File: lec01_ex02.mp3.json
+Timestamp: 25.8s - 30.64s
+Explanation: In Python, '==' is a comparison operator that checks if the values on either side are equal to each other and returns True or False. On the contrary, '=' in python stands for assignment operation where you allocate value to an object like x = 5 this will assign the integer 5 to variable x but won’t check equality between two variables unless explicitly stated with ‘=='.

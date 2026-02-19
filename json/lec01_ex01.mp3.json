@@ -1,0 +1,154 @@
+{
+  "number": "lec01",
+  "title": "ex01",
+  "text": " The following content is provided under a Creative Commons license. Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free. To make a donation or view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu. So the question was if you have these two lines right here, which I'll just put them up here just so it's bigger, type 5, print 3.0 minus 1, what is going to be the output? So if I run this in the editor. So for these types of problems, you can always check yourself. And this comes back to if you're new to programming, don't be afraid to try it out. Don't ask me, don't ask your neighbor. Just type it into the shell and hit run and then you get to see what the answer is. So the answer to this question is going to be 2.0, right? And let's see, are we right? Yep. Great. So one of the people got it right. Perfect. So if you didn't get it right, just to explain again, the reason why this doesn't get printed out is because we never actually had a print statement. So if you want to show something to the console, you need to use a print statement.",
+  "chunks": [
+    {
+      "number": "lec01",
+      "title": "ex01",
+      "start": 0.0,
+      "end": 4.74,
+      "text": " The following content is provided under a Creative Commons license."
+    },
+    {
+      "number": "lec01",
+      "title": "ex01",
+      "start": 4.74,
+      "end": 9.32,
+      "text": " Your support will help MIT OpenCourseWare continue to offer high quality educational"
+    },
+    {
+      "number": "lec01",
+      "title": "ex01",
+      "start": 9.32,
+      "end": 11.32,
+      "text": " resources for free."
+    },
+    {
+      "number": "lec01",
+      "title": "ex01",
+      "start": 11.32,
+      "end": 17.88,
+      "text": " To make a donation or view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare"
+    },
+    {
+      "number": "lec01",
+      "title": "ex01",
+      "start": 17.88,
+      "end": 18.88,
+      "text": " at ocw.mit.edu."
+    },
+    {
+      "number": "lec01",
+      "title": "ex01",
+      "start": 18.88,
+      "end": 29.400000000000002,
+      "text": " So the question was if you have these two lines right here, which I'll just put them"
+    },
+    {
+      "number": "lec01",
+      "title": "ex01",
+      "start": 29.4,
+      "end": 35.879999999999995,
+      "text": " up here just so it's bigger, type 5, print 3.0 minus 1, what is going to be the output?"
+    },
+    {
+      "number": "lec01",
+      "title": "ex01",
+      "start": 35.879999999999995,
+      "end": 38.12,
+      "text": " So if I run this in the editor."
+    },
+    {
+      "number": "lec01",
+      "title": "ex01",
+      "start": 38.12,
+      "end": 41.48,
+      "text": " So for these types of problems, you can always check yourself."
+    },
+    {
+      "number": "lec01",
+      "title": "ex01",
+      "start": 41.48,
+      "end": 44.32,
+      "text": " And this comes back to if you're new to programming, don't be afraid to try it out."
+    },
+    {
+      "number": "lec01",
+      "title": "ex01",
+      "start": 44.32,
+      "end": 46.72,
+      "text": " Don't ask me, don't ask your neighbor."
+    },
+    {
+      "number": "lec01",
+      "title": "ex01",
+      "start": 46.72,
+      "end": 51.519999999999996,
+      "text": " Just type it into the shell and hit run and then you get to see what the answer is."
+    },
+    {
+      "number": "lec01",
+      "title": "ex01",
+      "start": 51.519999999999996,
+      "end": 55.599999999999994,
+      "text": " So the answer to this question is going to be 2.0, right?"
+    },
+    {
+      "number": "lec01",
+      "title": "ex01",
+      "start": 55.599999999999994,
+      "end": 57.08,
+      "text": " And let's see, are we right?"
+    },
+    {
+      "number": "lec01",
+      "title": "ex01",
+      "start": 57.08,
+      "end": 58.08,
+      "text": " Yep."
+    },
+    {
+      "number": "lec01",
+      "title": "ex01",
+      "start": 58.08,
+      "end": 59.08,
+      "text": " Great."
+    },
+    {
+      "number": "lec01",
+      "title": "ex01",
+      "start": 59.08,
+      "end": 62.8,
+      "text": " So one of the people got it right."
+    },
+    {
+      "number": "lec01",
+      "title": "ex01",
+      "start": 62.8,
+      "end": 64.88,
+      "text": " Perfect."
+    },
+    {
+      "number": "lec01",
+      "title": "ex01",
+      "start": 64.88,
+      "end": 69.72,
+      "text": " So if you didn't get it right, just to explain again, the reason why this doesn't get printed"
+    },
+    {
+      "number": "lec01",
+      "title": "ex01",
+      "start": 69.72,
+      "end": 74.64,
+      "text": " out is because we never actually had a print statement."
+    },
+    {
+      "number": "lec01",
+      "title": "ex01",
+      "start": 74.64,
+      "end": 77.84,
+      "text": " So if you want to show something to the console, you need to use a print statement."
+    }
+  ]
+}

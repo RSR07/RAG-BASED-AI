@@ -1,0 +1,385 @@
+{
+  "number": "lec04",
+  "title": "ex02",
+  "text": " The following content is provided under a Creative Commons license. Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free. To make a donation or view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu. So here's some code. I'm defining a function named sq, and it takes in two parameters. I'm defining a function named f. It takes in one parameter. And then I'm doing these two lines. The first one is just calling function sq, and the next one is just printing the value. So let's first see what, nice. OK. Let's work through it. So the first things we see here is two function definitions. So we don't currently care about what's inside them right now, because we haven't made a function call yet. So the first thing we do is we have the function call calc equal sq, f, and 2. So inside sq, we're going to have funk and x. And funk is going to get mapped to f, and x is going to get mapped to 2. So we're taking the variables in order and mapping them to those. Funk is f, and x is 2. First thing the function does, sq, is create this variable y is equal to x squared. So we're going to have y is equal to 4. And then we're going to return funk y. So funk of y, this is going to be, we're just replacing the parameters, f of 4. So now this is another function call. We know what f is. This program knows what f is. f is going to be this part right here, which returns x squared. So in f, x gets mapped to whatever variable we put in, which in this case is 4. And we're going to return to whoever called us, which is over here, 4 squared, which is 16. So f of 4 gets replaced with 16. And f of 4 was up here. We're just popping out of scopes now. So f of 4 was up here. So then this, that line there, return funk y, is going to return 16. And whoever called us was down here. Calc is equal to 16. And then we're just printing calc. So 16 was right. Yay.",
+  "chunks": [
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 0.0,
+      "end": 3.16,
+      "text": " The following content is provided under a Creative"
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 3.16,
+      "end": 4.6000000000000005,
+      "text": " Commons license."
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 4.6000000000000005,
+      "end": 7.0,
+      "text": " Your support will help MIT OpenCourseWare"
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 7.0,
+      "end": 11.24,
+      "text": " continue to offer high quality educational resources for free."
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 11.24,
+      "end": 14.0,
+      "text": " To make a donation or view additional materials"
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 14.0,
+      "end": 17.92,
+      "text": " from hundreds of MIT courses, visit MIT OpenCourseWare"
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 17.92,
+      "end": 18.92,
+      "text": " at ocw.mit.edu."
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 23.32,
+      "end": 26.64,
+      "text": " So here's some code."
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 26.64,
+      "end": 30.76,
+      "text": " I'm defining a function named sq,"
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 30.76,
+      "end": 33.36,
+      "text": " and it takes in two parameters."
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 33.36,
+      "end": 35.52,
+      "text": " I'm defining a function named f."
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 35.52,
+      "end": 37.52,
+      "text": " It takes in one parameter."
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 37.52,
+      "end": 40.4,
+      "text": " And then I'm doing these two lines."
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 40.4,
+      "end": 43.56,
+      "text": " The first one is just calling function sq,"
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 43.56,
+      "end": 45.6,
+      "text": " and the next one is just printing the value."
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 48.56,
+      "end": 53.0,
+      "text": " So let's first see what, nice."
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 53.0,
+      "end": 55.8,
+      "text": " OK."
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 55.8,
+      "end": 56.8,
+      "text": " Let's work through it."
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 61.879999999999995,
+      "end": 68.6,
+      "text": " So the first things we see here is two function definitions."
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 68.6,
+      "end": 71.6,
+      "text": " So we don't currently care about what's inside them right now,"
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 71.6,
+      "end": 73.96,
+      "text": " because we haven't made a function call yet."
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 73.96,
+      "end": 78.32,
+      "text": " So the first thing we do is we have the function call"
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 78.32,
+      "end": 82.0,
+      "text": " calc equal sq, f, and 2."
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 82.04,
+      "end": 89.48,
+      "text": " So inside sq, we're going to have funk and x."
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 92.64,
+      "end": 95.72,
+      "text": " And funk is going to get mapped to f,"
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 95.72,
+      "end": 99.68,
+      "text": " and x is going to get mapped to 2."
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 99.68,
+      "end": 101.52,
+      "text": " So we're taking the variables in order"
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 101.52,
+      "end": 103.2,
+      "text": " and mapping them to those."
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 103.2,
+      "end": 106.56,
+      "text": " Funk is f, and x is 2."
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 106.56,
+      "end": 108.68,
+      "text": " First thing the function does, sq,"
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 108.68,
+      "end": 112.56,
+      "text": " is create this variable y is equal to x squared."
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 112.56,
+      "end": 116.12,
+      "text": " So we're going to have y is equal to 4."
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 119.48,
+      "end": 122.96000000000001,
+      "text": " And then we're going to return funk y."
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 122.96000000000001,
+      "end": 127.84,
+      "text": " So funk of y, this is going to be,"
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 127.84,
+      "end": 131.36,
+      "text": " we're just replacing the parameters, f of 4."
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 134.96,
+      "end": 136.56,
+      "text": " So now this is another function call."
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 138.76000000000002,
+      "end": 140.6,
+      "text": " We know what f is."
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 140.6,
+      "end": 142.52,
+      "text": " This program knows what f is."
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 142.52,
+      "end": 147.48000000000002,
+      "text": " f is going to be this part right here, which returns x squared."
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 150.16,
+      "end": 158.28,
+      "text": " So in f, x gets mapped to whatever variable"
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 158.28,
+      "end": 160.76000000000002,
+      "text": " we put in, which in this case is 4."
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 161.76,
+      "end": 166.76,
+      "text": " And we're going to return to whoever called us, which is over"
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 166.76,
+      "end": 169.2,
+      "text": " here, 4 squared, which is 16."
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 172.32,
+      "end": 175.04,
+      "text": " So f of 4 gets replaced with 16."
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 179.44,
+      "end": 183.84,
+      "text": " And f of 4 was up here."
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 183.84,
+      "end": 186.0,
+      "text": " We're just popping out of scopes now."
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 186.0,
+      "end": 187.88,
+      "text": " So f of 4 was up here."
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 187.92,
+      "end": 191.72,
+      "text": " So then this, that line there, return funk y,"
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 191.72,
+      "end": 194.56,
+      "text": " is going to return 16."
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 194.56,
+      "end": 196.96,
+      "text": " And whoever called us was down here."
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 196.96,
+      "end": 198.76,
+      "text": " Calc is equal to 16."
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 198.76,
+      "end": 200.04,
+      "text": " And then we're just printing calc."
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 204.0,
+      "end": 207.07999999999998,
+      "text": " So 16 was right."
+    },
+    {
+      "number": "lec04",
+      "title": "ex02",
+      "start": 207.07999999999998,
+      "end": 207.57999999999998,
+      "text": " Yay."
+    }
+  ]
+}
