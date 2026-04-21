@@ -1,26 +1,18 @@
 import requests
+import streamlit as st
 
-# create embedding
+HF_TOKEN = st.secrets["HF_TOKEN"]
+
 def create_embedding(text):
-    response = requests.post(
-        "http://localhost:11434/api/embed",
-        json={
-            "model": "nomic-embed-text",
-            "input": text
-        }
-    )
-    response.raise_for_status()
-    return response.json()["embeddings"][0]
+    API_URL = "https://api-inference.huggingface.co/pipeline/feature-extraction/sentence-transformers/all-MiniLM-L6-v2"
+    headers = {"Authorization": f"Bearer {HF_TOKEN}"}
 
-# generate response
+    response = requests.post(API_URL, headers=headers, json={"inputs": text})
+    return response.json()[0]
+
 def inference(prompt):
-    response = requests.post(
-        "http://127.0.0.1:11434/api/generate",
-        json={
-            "model": "phi3",
-            "prompt": prompt,
-            "stream": False
-        }
-    )
-    response.raise_for_status()
-    return response.json()["response"]
+    API_URL = "https://api-inference.huggingface.co/models/google/flan-t5-base"
+    headers = {"Authorization": f"Bearer {HF_TOKEN}"}
+
+    response = requests.post(API_URL, headers=headers, json={"inputs": prompt})
+    return response.json()[0]["generated_text"]
