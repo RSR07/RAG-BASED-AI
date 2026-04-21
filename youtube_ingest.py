@@ -2,19 +2,25 @@ from youtube_transcript_api import YouTubeTranscriptApi
 from urllib.parse import urlparse, parse_qs
 
 
+from urllib.parse import urlparse, parse_qs
+
 def get_video_id(url):
-    parsed = urlparse(url)
+    try:
+        parsed = urlparse(url)
 
-    if "youtube.com" in parsed.netloc:
-        query = parse_qs(parsed.query)
-        if "v" in query:
-            return query["v"][0]
+        # Case 1: youtube.com
+        if "youtube.com" in parsed.netloc:
+            query = parse_qs(parsed.query)
+            return query.get("v", [None])[0]
 
-    if "youtu.be" in parsed.netloc:
-        return parsed.path.strip("/")
+        # Case 2: youtu.be
+        if "youtu.be" in parsed.netloc:
+            return parsed.path.strip("/")
+
+    except:
+        pass
 
     raise ValueError("Invalid YouTube URL")
-
 
 def get_transcript_chunks(url):
     video_id = get_video_id(url)
