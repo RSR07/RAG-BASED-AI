@@ -1,4 +1,14 @@
 [Video]
-File: lec01_ex02.mp3.json
-Timestamp: 25.8s - 30.64s
-Explanation: In Python, '==' is a comparison operator that checks if the values on either side are equal to each other and returns True or False. On the contrary, '=' in python stands for assignment operation where you allocate value to an object like x = 5 this will assign the integer 5 to variable x but won’t check equality between two variables unless explicitly stated with ‘=='.
+File: lec08_ex05.mp3.json
+Timestamp: 48.18s - 49.34s
+Explanation: types of cars.
+
+[Video]
+File: lec07_ex02.mp3.json
+Timestamp: 40.96s - 43.84s
+Explanation: that is wrong, and then a description of the error type (which implies an example regarding types was previously discussed).
+
+[Video]
+File: lec03_ex02.mp3.json
+Timestamp: 250.84s - 252.6s
+Explanation: what values of variables are (likely includes examples and explanations related to different data types in Python).

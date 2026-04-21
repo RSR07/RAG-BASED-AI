@@ -1,109 +1,121 @@
 import streamlit as st
-import pandas as pd 
+from youtube_ingest import get_transcript_chunks
+from utils import create_embedding, inference
+import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
-import numpy as np 
-import joblib 
-import requests
+import numpy as np
+from concurrent.futures import ThreadPoolExecutor
+import hashlib
 
-st.title("RAG AI Teaching Assistant")
-st.write("Ask questions about the MIT OCW course: Introduction to Computer Science and Programming in Python")
+# ---- fast embedding using parallel calls
+def batch_embed(texts):
+    def embed_one(text):
+        return create_embedding(text)
 
+    with ThreadPoolExecutor(max_workers=5) as executor:
+        embeddings = list(executor.map(embed_one, texts))
+
+    return embeddings
+
+
+# ---- page setup
 st.set_page_config(
     page_title="RAG AI Teaching Assistant",
-    
     page_icon="🎓",
     layout="wide"
 )
 
+st.title("RAG AI Teaching Assistant")
+st.write("Paste a YouTube link below and ask anything about the video.")
 
+# ---- input
+video_url = st.text_input("Enter YouTube Video URL")
 
-
-
-
-@st.cache_resource
-def load_df():
-    try:
-        return joblib.load(r"C:\Users\Rajvardhan\OneDrive\Desktop\RAG-BASED-AI\embeddings.joblib")
-    except Exception as e:
-        st.error("Failed to load embeddings. Please regenerate embeddings.joblib.")
-        st.exception(e)
-        st.stop()
-
-
-
-df = load_df()
-
-def create_embedding(text_list):
-    r = requests.post("http://localhost:11434/api/embed", json={
-        "model": "bge-m3",
-        "input": text_list
-    })
-    r.raise_for_status()
-    return r.json()["embeddings"]
-
-def inference(prompt):
-    r = requests.post("http://127.0.0.1:11434/api/generate", json={
-        "model": "phi3",   # light model for 8GB RAM
-        "prompt": prompt,
-        "stream": False
-    })
-    r.raise_for_status()
-    return r.json()["response"]
-
-query = st.text_input(
-    "Ask a question from the course:",
-    placeholder="e.g. What are conditionals in Python?"
-)
-
-
-
-if st.button("Search"):
-    
-    if query.strip() == "":
-        st.warning("Please enter a question.")
+# ---- process video
+if st.button("Process Video"):
+    if not video_url.strip():
+        st.warning("Please enter a valid YouTube link.")
     else:
-        with st.spinner("Searching relevant video segments..."):
-            question_embedding = create_embedding([query])[0]
-            similarities = cosine_similarity(np.vstack(df["embedding"].values), [question_embedding]).flatten()
-            top_k = 3
-            max_indx = similarities.argsort()[::-1][:top_k]
-            new_df = df.loc[max_indx]
-            best_score = similarities[max_indx[0]]
-            
+        video_key = hashlib.md5(video_url.encode()).hexdigest()
+
+        if video_key in st.session_state:
+            st.success("Video already processed. You can ask questions.")
+        else:
+            with st.spinner("Processing video..."):
+                try:
+                    chunks = get_transcript_chunks(video_url)
+                    df = pd.DataFrame(chunks)
+
+                    # speed optimizations
+                    df = df.head(100)
+                    df["text"] = df["text"].str[:120]
+
+                    embeddings = batch_embed(df["text"].tolist())
+                    df["embedding"] = embeddings
+
+                    st.session_state["df"] = df
+                    st.session_state[video_key] = df
+
+                    st.success("Video is ready! Ask your question below.")
+
+                except Exception as e:
+                    st.error("Couldn't process this video. It may not have captions.")
+                    st.exception(e)
 
 
-            prompt = f"""
-You are a teaching assistant for the free MIT OpenCourseWare course:
-"Introduction to Computer Science and Programming in Python".
+# ---- question answering
+df = st.session_state.get("df", None)
 
-Use ONLY the provided video chunks to answer.
+if df is not None:
+    query = st.text_input(
+        "Ask a question about the video:",
+        placeholder="e.g. What are loops?"
+    )
 
-Answer in this format:
+    if st.button("Search"):
+        if not query.strip():
+            st.warning("Type a question first 🙂")
+        else:
+            with st.spinner("Thinking..."):
 
-[Video]
-File: <file>
-Timestamp: <start>s - <end>s
-Explanation: <direct answer>
+                question_embedding = create_embedding(query)
 
-Relevant Chunks:
-{new_df[["file", "start", "end", "text"]].to_json(orient="records")}
+                similarities = cosine_similarity(
+                    np.vstack(df["embedding"].values),
+                    [question_embedding]
+                ).flatten()
 
-User Question:
+                top_k = 3
+                top_indices = similarities.argsort()[::-1][:top_k]
+                results = df.loc[top_indices]
+                confidence = similarities[top_indices[0]]
+
+                prompt = f"""
+You are a helpful teaching assistant.
+
+Answer clearly and directly using ONLY the context provided.
+
+Context:
+{results[["file", "start", "end", "text"]].to_json(orient="records")}
+
+Question:
 {query}
 """
 
-            response = inference(prompt)
+                answer = inference(prompt)
 
-        st.subheader("Answer")
-        st.write(response)
-        st.caption(f"🔎 Top match confidence: {best_score:.2f}")
+            st.subheader("Answer")
+            st.write(answer)
+            st.caption(f"Confidence score: {confidence:.2f}")
 
-
-        st.subheader("Sources")
-        for _, row in new_df.iterrows():
-            st.markdown(f"""
+            st.subheader("Sources")
+            for _, row in results.iterrows():
+                st.markdown(f"""
 **File:** {row['file']}  
-**Timestamp:** {row['start']}s – {row['end']}s  
+**Time:** {row['start']}s – {row['end']}s  
 **Snippet:** {row['text']}
 ---
 """)
+
+else:
+    st.info("Start by pasting a YouTube link and clicking 'Process Video'.")

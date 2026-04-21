@@ -4,32 +4,46 @@ import json
 import numpy as np
 import pandas as pd
 import joblib
-from sklearn.metrics.pairwise import cosine_similarity
+import faiss
 
+
+# ---- Simple helper to get embeddings from Ollama
 def create_embedding(text_list):
-    r = requests.post("http://localhost:11434/api/embed", json={
-        "model": "bge-m3",
-        "input": text_list
-    })
-    r.raise_for_status()
-    return r.json()["embeddings"]
+    response = requests.post(
+        "http://localhost:11434/api/embed",
+        json={
+            "model": "bge-m3",
+            "input": text_list
+        }
+    )
+    response.raise_for_status()
+    return response.json()["embeddings"]
 
+
+# ---- Folder where your transcript JSON files are stored
 json_dir = r"C:\Users\Rajvardhan\OneDrive\Desktop\RAG-BASED-AI\json"
 json_files = os.listdir(json_dir)
 
-my_dicts = []
+all_rows = []
 chunk_id = 0
 
+
+# ---- Go through each file and generate embeddings
 for json_file in json_files:
-    with open(os.path.join(json_dir, json_file), encoding="utf-8") as f:
+    file_path = os.path.join(json_dir, json_file)
+
+    with open(file_path, encoding="utf-8") as f:
         content = json.load(f)
 
-    print(f"Creating embeddings for {json_file}")
-    texts = [c["text"] for c in content["chunks"]]
+    print(f"\nProcessing: {json_file}")
+
+    texts = [chunk["text"] for chunk in content["chunks"]]
+
+    # Generate embeddings in one go (you can batch this later if needed)
     embeddings = create_embedding(texts)
 
     for i, chunk in enumerate(content["chunks"]):
-        my_dicts.append({
+        all_rows.append({
             "file": json_file,
             "chunk_id": chunk_id,
             "start": chunk["start"],
@@ -39,29 +53,21 @@ for json_file in json_files:
         })
         chunk_id += 1
 
- # remove later to process all files
 
-df = pd.DataFrame(my_dicts)
+# ---- Convert everything into a DataFrame
+df = pd.DataFrame(all_rows)
 
-incoming_query = input("Ask a Question: ")
-question_embedding = create_embedding([incoming_query])[0]
+print("\nCreating FAISS index...")
 
-emb_matrix = np.vstack(df["embedding"].values)
-similarities = cosine_similarity(emb_matrix, [question_embedding]).flatten()
+# Convert embeddings to numpy matrix
+emb_matrix = np.vstack(df["embedding"].values).astype("float32")
 
-top_k = 3
-top_idx = similarities.argsort()[::-1][:top_k]
+# Build FAISS index (L2 distance)
+index = faiss.IndexFlatL2(emb_matrix.shape[1])
+index.add(emb_matrix)
 
-results = df.iloc[top_idx]
-print(results[["file", "chunk_id", "start", "end", "text"]])
-joblib.dump(df, "embeddings.joblib")
-print("Saved embeddings.joblib")
-
-
-df["file"] = df["file"].astype(str)
-df["text"] = df["text"].astype(str)
-
-
+# ---- Save both data and index
+faiss.write_index(index, "faiss.index")
 joblib.dump(df, "embeddings.joblib")
 
-
+print("Done! Embeddings and FAISS index are ready.")

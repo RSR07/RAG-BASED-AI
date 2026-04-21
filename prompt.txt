@@ -28,10 +28,10 @@ RULES:
 
 -------------------------
 Relevant Video Chunks:
-[{"file":"lec01_ex02.mp3.json","start":25.8,"end":28.16,"text":" in Python?"},{"file":"lec05_ex01.mp3.json","start":120.92,"end":124.2,"text":" make a difference when I'm talking about strings."},{"file":"lec09_ex01.mp3.json","start":98.28,"end":100.36,"text":" as opposed to just a regular variable."},{"file":"lec02_ex03.mp3.json","start":37.48,"end":43.28,"text":" So if we type in x is 0 and y is 5, 0 is not equal to 5."},{"file":"lec01_ex02.mp3.json","start":28.16,"end":30.64,"text":" So x plus y is equal to 2."}]
+[{"file":"lec02_ex03.mp3.json","start":27.0,"end":28.4,"text":" types in."},{"file":"lec08_ex05.mp3.json","start":48.18,"end":49.34,"text":" types of cars."},{"file":"lec07_ex02.mp3.json","start":40.96,"end":43.84,"text":" that is wrong, and then a description of the error type"},{"file":"lec09_ex01.mp3.json","start":59.8,"end":62.24,"text":" going to get a data attribute."},{"file":"lec03_ex02.mp3.json","start":250.84,"end":252.6,"text":" what values of variables are."}]
 -------------------------
 
 User Question:
-“What is the difference between == and = in Python?”
+what are different datatypes
 
 Now provide the answer in the strict format above:
